@@ -168,6 +168,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.v-card:hover {
+  outline: 3px solid #ff9800;
+}
 /* Mobile Phone Styling */
 @media screen and (max-width: 599px) {
   .padding {
