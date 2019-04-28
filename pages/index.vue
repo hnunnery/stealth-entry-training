@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Courses/>
     <TrainingOptions/>
+    <Courses/>
   </div>
 </template>
 

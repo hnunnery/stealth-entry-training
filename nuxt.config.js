@@ -142,7 +142,11 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: ["~/assets/style/app.styl", "aos/dist/aos.css"],
+  css: [
+    "~/assets/style/app.styl",
+    "aos/dist/aos.css",
+    "~/assets/style/custom-snipcart.css"
+  ],
 
   /*
    ** Plugins to load before mounting the App

@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-layout row wrap justify-center align-center my-5>
-      <v-flex xs10 sm8 md6 class="padding">
+      <v-flex xs10 sm8 md6 xl4 class="padding">
         <v-img
           src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CEH-Cover-v10-2.jpg"
           alt="CEH"
