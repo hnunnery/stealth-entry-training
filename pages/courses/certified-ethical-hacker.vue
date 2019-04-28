@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container fluid px-0>
     <v-layout row wrap justify-center>
       <v-flex xs12 class="text-xs-center">
         <h1 class="display-3 primary--text pt-3 mb-5 my-title">Certified Ethical Hacker v10 (CEH)</h1>
@@ -128,9 +128,9 @@
       </v-flex>
     </v-layout>
 
-    <v-layout row wrap justify-center>
+    <v-layout row wrap justify-center class="py-5 orange">
       <v-flex xs12 class="text-xs-center">
-        <h3 class="display-1 primary--text">Choose a Training Option Below</h3>
+        <h3 class="display-1 white--text">Choose a Training Option Below</h3>
       </v-flex>
     </v-layout>
     <CEHiClass/>
@@ -138,7 +138,7 @@
     <CEHinPerson/>
 
     <v-layout row wrap justify-center>
-      <v-flex xs12 class="text-xs-center">
+      <v-flex xs12 class="text-xs-center pb-5">
         <h2
           class="display-1 secondary--text py-5"
         >Please contact our training team to schedule in-person live training for your private group</h2>

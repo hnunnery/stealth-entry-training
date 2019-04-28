@@ -24,6 +24,10 @@
           <v-icon class="primary--text navbar-icons">fas fa-chalkboard-teacher</v-icon>&nbsp;
           <span class="nav-text secondary--text">Options</span>
         </v-btn>
+        <v-btn flat to="/add-ons">
+          <v-icon class="primary--text navbar-icons">fas fa-plus-circle</v-icon>&nbsp;
+          <span class="nav-text secondary--text">Add-Ons</span>
+        </v-btn>
         <v-btn flat class="snipcart-checkout">
           <span class="snipcart-summary snipcart-summary-empty">
             <v-icon class="primary--text navbar-icons">fas fa-shopping-cart</v-icon>
@@ -83,6 +87,17 @@
             <v-list-tile-title
               class="secondary--text nav-font-size font-weight-medium mobile-nav"
             >OPTIONS</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+
+        <v-list-tile to="/add-ons" class="sidenav-element">
+          <v-list-tile-action>
+            <v-icon class="primary--text text-xs-center">fas fa-plus-circle</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title
+              class="secondary--text nav-font-size font-weight-medium mobile-nav"
+            >ADD-ONS</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
 

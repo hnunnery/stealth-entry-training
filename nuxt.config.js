@@ -115,10 +115,10 @@ module.exports = {
         defer: true
       },
       {
-        src: "https://cdn.snipcart.com/scripts/2.0/snipcart.js",
         id: "snipcart",
         "data-api-key":
           "ZWE0MDNjODUtOGY2Mi00YWZmLWE1YzctZDNiNzk5MDA3ZDA4NjM2NzA0MTQ5NTA0NjIyOTU2",
+        src: "https://cdn.snipcart.com/scripts/2.0/snipcart.js",
         async: true,
         defer: true
       }
