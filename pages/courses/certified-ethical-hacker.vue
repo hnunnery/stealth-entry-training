@@ -1,0 +1,213 @@
+<template>
+  <v-container fluid>
+    <v-layout row wrap justify-center>
+      <v-flex xs12 class="text-xs-center">
+        <h1 class="display-3 primary--text pt-3 mb-5">Certified Ethical Hacker v10 (CEH)</h1>
+      </v-flex>
+      <v-flex xs12 md6 mb-4 class="padding">
+        <Youtube :video="videoCEH" class="elevation-12"/>
+      </v-flex>
+      <v-flex xs12 md6 mb-4 class="padding">
+        <p
+          class="subheading secondary--text text-xs-left"
+        >The Certified Ethical Hacker (CEH v10) program is a trusted and respected ethical hacking training Program that any information security professional will need. Since its inception in 2003, the Certified Ethical Hacker has been the absolute choice of the industry globally. It is a respected certification in the industry and is listed as a baseline certification on the United States Department of Defense Directive 8570. The CEH exam is ANSI 17024 compliant adding credibility and value to credential members.</p>
+        <p
+          class="subheading secondary--text text-xs-left"
+        >CEH is used as a hiring standard and is a core sought-after certification by many of the Fortune 500 organizations, governments, cybersecurity practices, and a cyber staple in education across many of the most prominent degree programs in top Universities around the globe. Cyber Security as a profession is evolving, the barrier to entry is rising, the demand for Skilled Cyber professionals continues to grow, but it is being refined, demanding a higher level of skill and ability.</p>
+      </v-flex>
+      <v-flex xs12 mb-5>
+        <p
+          class="subheading secondary--text text-xs-left"
+        >The worlds most advanced ethical hacking course with 20 of the most current security domains an ethical hacker will want to know when planning to beef up the information security posture of their organization. In 20 comprehensive modules, the course covers over 270 attack technologies, commonly used by hackers.</p>
+        <p
+          class="subheading secondary--text text-xs-left"
+        >Our security experts have designed over 140 labs which mimic real time scenarios in the course to help you “live” through an attack as if it were real and provide you with access to over 2200 commonly used hacking tools to immerse you into the hacker world.</p>
+        <p
+          class="subheading secondary--text text-xs-left"
+        >The goal of this course is to help you master an ethical hacking methodology that can be used in a penetration testing or ethical hacking situation. You walk out the door with ethical hacking skills that are highly in demand, as well as the globally recognized Certified Ethical Hacker certification!</p>
+      </v-flex>
+    </v-layout>
+
+    <v-layout row wrap justify-center mb-5>
+      <v-flex xs12 mb-5>
+        <v-tabs v-model="active" color="orange" fixed-tabs dark slider-color="secondary">
+          <v-tab ripple>About the Exam</v-tab>
+          <v-tab-item>
+            <v-card class="padding">
+              <v-card-text class="subheading secondary--text">
+                <v-layout row wrap justify-center class="text-xs-left">
+                  <v-flex xs12 md6 xl4>
+                    <h3 class="headline my-3">About the Exam</h3>
+                    <p>
+                      <span class="font-weight-bold">Exam Name:</span> CEH 312-50 (ECC EXAM), 312-50 (VUE)
+                    </p>
+                    <p>
+                      <span class="font-weight-bold">Number of Questions:</span> 125
+                    </p>
+                    <p>
+                      <span class="font-weight-bold">Test Duration:</span> 4 Hours
+                    </p>
+                    <p>
+                      <span class="font-weight-bold">Test Format:</span> Multiple Choice
+                    </p>
+                    <p>
+                      <span class="font-weight-bold">Test Delivery:</span> ECC EXAM, VUE
+                    </p>
+                  </v-flex>
+                  <v-flex xs12 md6 class="secondary--text">
+                    <h3 class="headline my-3">Passing Score</h3>
+                    <p>In order to maintain the high integrity of our certifications exams, EC-Council Exams are provided in multiple forms (I.e. different question banks). Each form is carefully analyzed through beta testing with an appropriate sample group under the purview of a committee of subject matter experts that ensure that each of our exams not only has academic rigor but also has “real world” applicability. We also have a process to determine the difficulty rating of each question. The individual rating then contributes to an overall "Cut Score" for each exam form. To ensure each form has equal assessment standards, cut scores are set on a "per exam form" basis. Depending on which exam form is challenged, cut scores can range from 60% to 85%</p>
+                  </v-flex>
+                </v-layout>
+              </v-card-text>
+            </v-card>
+          </v-tab-item>
+
+          <v-tab ripple>Course Outline</v-tab>
+          <v-tab-item>
+            <v-card class="padding">
+              <v-card-text class="subheading secondary--text">
+                <v-layout row wrap justify-left class="text-xs-left my-3">
+                  <v-flex xs12 md6 lg4 my-2>Introduction to Ethical Hacking</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Footprinting and Reconnaissance</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Scanning Networks</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Enumeration</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Vulnerability Analysis</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>System Hacking</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Malware Threats</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Sniffing</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Social Engineering</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Denial-of-Service</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Session Hijacking</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Evading IDS, Firewalls, and Honeypots</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Hacking Web Servers</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Hacking Web Applications</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>SQL Injection</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Hacking Wireless Networks</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Hacking Mobile Platforms</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>IoT Hacking</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Cloud Computing</v-flex>
+                  <v-flex xs12 md6 lg4 my-2>Cryptography</v-flex>
+                </v-layout>
+              </v-card-text>
+            </v-card>
+          </v-tab-item>
+
+          <v-tab ripple>Videos</v-tab>
+          <v-tab-item>
+            <v-card class="padding">
+              <v-card-text class="subheading secondary--text">
+                <v-layout row wrap justify-center class="text-xs-center my-5">
+                  <v-flex xs12 md6 lg3 px-2 v-for="(video, index) in videos" :key="index">
+                    <Youtube :video="video"/>
+                  </v-flex>
+                </v-layout>
+              </v-card-text>
+            </v-card>
+          </v-tab-item>
+
+          <v-tab ripple>CEH Practical</v-tab>
+          <v-tab-item>
+            <v-card class="padding">
+              <v-card-text class="subheading secondary--text">
+                <v-layout row wrap justify-center class="text-xs-left">
+                  <v-flex xs12 lg10>
+                    <h4
+                      class="headline text-xs-center mt-1 mb-3"
+                    >About the Certified Ethical Hacker (Practical)</h4>
+                    <p>CEH Practical is a six-hour, rigorous exam that requires you to demonstrate the application of ethical hacking techniques such as threat vector identification, network scanning, OS detection, vulnerability analysis, system hacking, web app hacking, etc. to solve a security audit challenge.</p>
+                    <p>This is the next step after you have attained the highly acclaimed Certified Ethical Hacker certification. Professionals that possess the C|EH credential will be able to sit for exam that will test them to their limits in unearthing vulnerabilities across major operating systems, databases, and networks.</p>
+                    <p>You will be given limited time, just like in the real world. The exam was developed by a panel of experienced SMEs and includes 20 real-life scenarios with questions designed to validate essential skills required in the ethical hacking domains as outlined in the C|EH program.</p>
+                    <p>It is not a simulated exam but rather, it mimics a real corporate network through the use of live virtual machines, networks, and applications, designed to test your skills. You will be presented with scenarios and will be asked to demonstrate the application of the knowledge acquired in the C|EH course to find solutions to real-life challenges.</p>
+                  </v-flex>
+                </v-layout>
+              </v-card-text>
+            </v-card>
+          </v-tab-item>
+        </v-tabs>
+      </v-flex>
+    </v-layout>
+
+    <v-layout row wrap justify-center align-center mb-5>
+      <v-flex xs10 sm8 md6 lg4 class="padding">
+        <v-img
+          src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CEH-Cover-v10-2.jpg"
+          alt="CEH"
+          class="responsive-img elevation-12"
+        ></v-img>
+      </v-flex>
+      <v-flex xs12 sm10 md6 lg6 class="text-xs-center padding">
+        <h2 class="display-1 secondary--text mt-4">Certified Ethical Hacker | CEH v10</h2>
+        <p class="display-1 primary--text mt-3 mb-4">$1,899</p>
+        <p class="title secondary--text text-xs-left">Base Package Includes:</p>
+        <ul class="subheading secondary--text text-xs-left">
+          <li>
+            <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Instructor-led, Streaming Video Training Modules – 1 year access
+          </li>
+          <li>
+            <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Official EC-Council e-courseware – 1 year access
+          </li>
+          <li>
+            <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; iLabs, Virtual Lab Platform – 6 months access
+          </li>
+          <li>
+            <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certification Exam Voucher
+          </li>
+          <li>
+            <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certificate of Completion
+          </li>
+        </ul>
+        <v-btn large class="snipcart-add-item primary gradient mt-4" data-item-id="001"
+                data-item-name="Certified Ethical Hacker (CEH)"
+                data-item-price="1899.00"
+                data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CEH-Cover-v10-2.jpg"
+                data-item-url="/products.json"
+                data-item-description="The worlds most advanced ethical hacking course with 20 of the most current security domains an ethical hacker will want to know when planning to beef up the information security posture of their organization.">Add to Cart</v-btn>
+      </v-flex>
+    </v-layout>
+  </v-container>
+</template>
+
+<script>
+import Youtube from "@/components/Youtube";
+export default {
+  components: {
+    Youtube
+  },
+  data() {
+    return {
+      videoCEH: {
+        id: "MrJj9kRFPO0"
+      },
+      videos: [
+        {
+          id: "1BO3FVZZAWU",
+          title: "What Our Student Say"
+        },
+        {
+          id: "L6dofrkRohA",
+          title: "Can You Spot the Hacker"
+        },
+        {
+          id: "iU_7zKypJZI",
+          title: "iLabs Demo"
+        },
+        {
+          id: "3l0e8h9jRNw",
+          title: "Meet Your Instructor"
+        }
+      ],
+      active: null
+    };
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+@media screen and (min-width: 600px) {
+  .padding {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+</style>
