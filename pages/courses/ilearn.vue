@@ -1,13 +1,13 @@
 <template>
-  <CEHiClass/>
+  <CEHiLearn/>
 </template>
 
 <script>
-import CEHiClass from "@/components/CEHiClass";
+import CEHiLearn from "@/components/CEHiLearn";
 
 export default {
   components: {
-    CEHiClass
+    CEHiLearn
   }
 };
 </script>

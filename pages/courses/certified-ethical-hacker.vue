@@ -133,7 +133,7 @@
         <h3 class="display-1 white--text">Choose a Training Option Below</h3>
       </v-flex>
     </v-layout>
-    <CEHiClass/>
+    <CEHiLearn/>
     <CEHiWeek/>
     <CEHinPerson/>
 
@@ -150,14 +150,14 @@
 
 <script>
 import Youtube from "@/components/Youtube";
-import CEHiClass from "@/components/CEHiClass";
+import CEHiLearn from "@/components/CEHiLearn";
 import CEHiWeek from "@/components/CEHiWeek";
 import CEHinPerson from "@/components/CEHinPerson";
 
 export default {
   components: {
     Youtube,
-    CEHiClass,
+    CEHiLearn,
     CEHiWeek,
     CEHinPerson
   },

@@ -22,7 +22,7 @@
     <v-layout row wrap justify-center>
       <!-- Self-Paced -->
       <v-flex xs12 lg6 class="text-xs-center my-5 spread">
-        <v-card to="/courses/iclass" class="padding py-4 my-card elevation-12">
+        <v-card to="/courses/ilearn" class="padding py-4 my-card elevation-12">
           <v-img
             src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134826/StealthEntry/eccouncil/self-paced.png"
             width="100"
