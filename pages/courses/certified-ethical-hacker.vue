@@ -191,6 +191,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.padding {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
 @media screen and (min-width: 600px) {
   .padding {
     padding-left: 50px !important;
