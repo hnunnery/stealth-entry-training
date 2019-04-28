@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="pb-5">
+  <v-container fluid class="pb-5 orange">
     <v-layout row wrap justify-left align-center class="pa-0 ma-0">
       <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
         <nuxt-link to="/courses/certified-ethical-hacker">
