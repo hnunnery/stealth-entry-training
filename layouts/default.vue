@@ -2,13 +2,13 @@
   <v-app class="app">
     <v-toolbar app scroll-off-screen>
       <v-flex class="text-xs-center">
-        <a href="https://www.stealthentry.com">
+        <nuxt-link to="/">
           <img
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_45/v1549227032/StealthEntry/stealth-entry-logo.png"
             alt="logo"
             id="navbar-logo"
           >
-        </a>
+        </nuxt-link>
       </v-flex>
       <!-- NAVBAR FOR MEDIUM AND UP SCREEN SIZES -->
       <v-toolbar-items class="hidden-md-and-down">
@@ -20,10 +20,10 @@
           <v-icon class="primary--text navbar-icons">fas fa-graduation-cap</v-icon>&nbsp;
           <span class="nav-text secondary--text">Courses</span>
         </v-btn>
-        <v-btn flat to="/contact">
+        <!-- <v-btn flat to="/contact">
           <v-icon class="primary--text navbar-icons">fas fa-envelope</v-icon>&nbsp;
           <span class="nav-text secondary--text">Contact</span>
-        </v-btn>
+        </v-btn>-->
         <v-btn flat class="snipcart-checkout">
           <span class="snipcart-summary snipcart-summary-empty">
             <v-icon class="primary--text navbar-icons">fas fa-shopping-cart</v-icon>
@@ -75,7 +75,7 @@
           </v-list-tile-content>
         </v-list-tile>
 
-        <v-list-tile to="/contact" class="sidenav-element">
+        <!-- <v-list-tile to="/contact" class="sidenav-element">
           <v-list-tile-action>
             <v-icon class="primary--text text-xs-center">fas fa-envelope</v-icon>
           </v-list-tile-action>
@@ -84,8 +84,10 @@
               class="secondary--text nav-font-size font-weight-medium mobile-nav"
             >CONTACT</v-list-tile-title>
           </v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile class="snipcart-summary snipcart-summary-empty snipcart-checkout bottom-sidenav-element sidenav-element">
+        </v-list-tile>-->
+        <v-list-tile
+          class="snipcart-summary snipcart-summary-empty snipcart-checkout bottom-sidenav-element sidenav-element"
+        >
           <v-list-tile-action class="nav-link">
             <v-icon class="primary--text text-xs-center">fas fa-shopping-cart</v-icon>
           </v-list-tile-action>
