@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-layout row wrap justify-center>
       <v-flex xs12 class="text-xs-center">
-        <h1 class="display-3 primary--text pt-3 mb-5">Certified Ethical Hacker v10 (CEH)</h1>
+        <h1 class="display-3 primary--text pt-3 mb-5 my-title">Certified Ethical Hacker v10 (CEH)</h1>
       </v-flex>
       <v-flex xs12 md6 mb-4 class="padding">
         <Youtube :video="videoCEH" class="elevation-12"/>
@@ -15,7 +15,7 @@
           class="subheading secondary--text text-xs-left"
         >CEH is used as a hiring standard and is a core sought-after certification by many of the Fortune 500 organizations, governments, cybersecurity practices, and a cyber staple in education across many of the most prominent degree programs in top Universities around the globe. Cyber Security as a profession is evolving, the barrier to entry is rising, the demand for Skilled Cyber professionals continues to grow, but it is being refined, demanding a higher level of skill and ability.</p>
       </v-flex>
-      <v-flex xs12 mb-5>
+      <v-flex xs12 mb-5 class="padding">
         <p
           class="subheading secondary--text text-xs-left"
         >The worlds most advanced ethical hacking course with 20 of the most current security domains an ethical hacker will want to know when planning to beef up the information security posture of their organization. In 20 comprehensive modules, the course covers over 270 attack technologies, commonly used by hackers.</p>
@@ -128,6 +128,11 @@
       </v-flex>
     </v-layout>
 
+    <v-layout row wrap justify-center>
+      <v-flex xs12 class="text-xs-center">
+        <h3 class="display-1 primary--text">Choose a Training Option Below</h3>
+      </v-flex>
+    </v-layout>
     <CEHiClass/>
     <CEHiWeek/>
     <CEHinPerson/>
@@ -190,6 +195,11 @@ export default {
   .padding {
     padding-left: 50px !important;
     padding-right: 50px !important;
+  }
+}
+@media screen and (max-width: 599px) {
+  .my-title {
+    font-size: 2.5em !important;
   }
 }
 </style>

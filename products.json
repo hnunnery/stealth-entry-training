@@ -2,7 +2,19 @@
   {
     "id": "001",
     "price": 1899.0,
-    "name": "Certified Ethical Hacker (CEH)",
+    "name": "CEH Self-Paced (iClass)",
+    "url": "/products.json"
+  },
+  {
+    "id": "002",
+    "price": 2899.0,
+    "name": "CEH Live Online (iWeek)",
+    "url": "/products.json"
+  },
+  {
+    "id": "003",
+    "price": 2899.0,
+    "name": "CEH Live in Person",
     "url": "/products.json"
   }
 ]
