@@ -62,9 +62,11 @@ export default {
     return {
       courseDate: "",
       dates: [
-        "25 May - 30 May 2019 in Tampa, FL",
-        "5 June - 10 June 2019 in Las Vegas, NV",
-        "15 July - 20 July 2019 in San Francisco, CA"
+        "Albuquerque, NM | May 20-24, 2019",
+        "Las Vegas, NV | May 20-24, 2019",
+        "Tampa, FL | July 8-12, 2019",
+        "New Orleans, LA | July 22-26, 2019",
+        "Atlanta, GA | OCt 6-9, 2019 (Hacker Halted)"
       ]
     };
   }
