@@ -1,14 +1,16 @@
 <template>
-  <v-container fluid pt-5 px-0>
+  <v-container fluid pt-3 px-0>
     <v-layout row wrap justify-center align-center>
       <v-flex xs12 md6 class="text-xs-center padding">
-        <h2 class="display-2 primary--text">iClass is EC-Council’s Official Delivery Platform</h2>
+        <h2
+          class="display-2 primary--text my-title"
+        >iClass is EC-Council’s Official Delivery Platform</h2>
         <p
-          class="headline secondary--text text-xs-left mt-4 mb-5"
+          class="headline secondary--text text-xs-left mt-4"
           style="line-height: 1.7em !important;"
         >What that means is that if you choose to attend iClass training, your exam will be included in the package and you will not have to apply and prove 2 years of IT Security experience in order to test!</p>
       </v-flex>
-      <v-flex xs12 md6 class="text-xs-center mb-5 padding">
+      <v-flex xs12 md6 class="text-xs-center my-5 padding">
         <Youtube :video="video" class="elevation-12"/>
       </v-flex>
       <v-flex xs12 class="text-xs-center orange py-5 padding elevation-12">
@@ -208,6 +210,11 @@ export default {
   }
   .my-card-2 {
     height: 500px;
+  }
+}
+@media screen and (max-width: 599px) {
+  .my-title {
+    font-size: 2.5em !important;
   }
 }
 </style>
