@@ -6,7 +6,12 @@
           <h1 class="display-3 white--text">iClass</h1>
         </v-flex>
         <h1 class="display-4 secondary--text desktop">iClass</h1>
-        <h2 class="display-2 primary--text my-title">
+        <h2
+          class="display-2 primary--text my-title"
+          data-aos="zoom-out-up"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+        >
           EC-Council’s Official
           <br>Delivery Platform
         </h2>
@@ -21,6 +26,9 @@
       <v-flex xs12 class="text-xs-center orange py-5 padding elevation-12">
         <h5
           class="display-1 white--text"
+          data-aos="zoom-out-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
         >In the iClass platform we offer a few different ways in which you can train.</h5>
       </v-flex>
     </v-layout>

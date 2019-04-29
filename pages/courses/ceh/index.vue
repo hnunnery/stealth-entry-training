@@ -2,7 +2,12 @@
   <v-container fluid pa-0>
     <v-layout>
       <v-flex xs12 class="py-4 px-2 orange elevation-12">
-        <h2 class="display-2 white--text text-xs-center my-title">Certified Ethical Hacker v10 (CEH)</h2>
+        <h2
+          class="display-2 white--text text-xs-center my-title"
+          data-aos="zoom-out-down"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >Certified Ethical Hacker v10 (CEH)</h2>
       </v-flex>
     </v-layout>
     <v-layout row wrap justify-center mt-5>
@@ -142,7 +147,12 @@
 
     <v-layout row wrap justify-center>
       <v-flex xs12 class="py-4 px-2 orange elevation-12">
-        <h2 class="display-2 white--text text-xs-center my-title">Choose a Training Option Below</h2>
+        <h2
+          class="display-2 white--text text-xs-center my-title"
+          data-aos="zoom-out-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >Choose a Training Option Below</h2>
       </v-flex>
     </v-layout>
     <CEHiLearn/>

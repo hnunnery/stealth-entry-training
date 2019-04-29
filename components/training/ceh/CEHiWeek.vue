@@ -44,10 +44,14 @@
                         <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Exam Preparation
                       </li>
                     </ul>
+                    <v-btn
+                      to="/courses/ceh/iweek"
+                      large
+                      class="primary gradient mt-4"
+                    >Purchase Course</v-btn>
                   </v-flex>
                 </v-layout>
               </v-container>
-              <v-btn to="/courses/ceh/iweek" large class="primary gradient mt-4">Purchase Course</v-btn>
             </v-flex>
           </v-layout>
         </v-card>

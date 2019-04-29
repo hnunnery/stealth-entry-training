@@ -41,21 +41,21 @@
                         <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Exam Preparation
                       </li>
                     </ul>
+                    <v-btn
+                      large
+                      class="snipcart-add-item primary gradient mt-4"
+                      data-item-id="002"
+                      data-item-name="CEH Live Online (iWeek)"
+                      data-item-price="2899.00"
+                      data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CEH-Cover-v10-2.jpg"
+                      data-item-url="/products.json"
+                      data-item-custom1-name="Dates"
+                      data-item-custom1-required="true"
+                      :data-item-custom1-value="this.courseDate"
+                    >Add to Cart</v-btn>
                   </v-flex>
                 </v-layout>
               </v-container>
-              <v-btn
-                large
-                class="snipcart-add-item primary gradient mt-4"
-                data-item-id="002"
-                data-item-name="CEH Live Online (iWeek)"
-                data-item-price="2899.00"
-                data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CEH-Cover-v10-2.jpg"
-                data-item-url="/products.json"
-                data-item-custom1-name="Dates"
-                data-item-custom1-required="true"
-                :data-item-custom1-value="this.courseDate"
-              >Add to Cart</v-btn>
             </v-flex>
           </v-layout>
         </v-card>

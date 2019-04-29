@@ -40,10 +40,14 @@
                         <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certificate of Completion
                       </li>
                     </ul>
+                    <v-btn
+                      to="/courses/ceh/ilearn"
+                      large
+                      class="primary gradient mt-4"
+                    >Purchase Course</v-btn>
                   </v-flex>
                 </v-layout>
               </v-container>
-              <v-btn to="/courses/ceh/ilearn" large class="primary gradient mt-4">Purchase Course</v-btn>
             </v-flex>
           </v-layout>
         </v-card>
