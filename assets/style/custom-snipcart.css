@@ -1,5 +1,5 @@
 :root {
-  --brand-color: #ff9800;
+  --brand-color: #424242;
 }
 .snip-layout .snip-header,
 .snip-layout .snip-header__total,
@@ -7,12 +7,12 @@
   background: var(--brand-color);
 }
 .snip-layout .snip-btn {
-  background-color: #757575;
+  background-color: #ff9800;
   border-radius: 3px;
   border: 1px solid #fff;
 }
 .snip-layout .snip-btn:hover {
-  background-color: #424242;
+  background-color: #d48105;
 }
 .snip-layout .snip-btn--highlight {
   background: #05c40e;

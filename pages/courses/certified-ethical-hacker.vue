@@ -1,13 +1,15 @@
 <template>
-  <v-container fluid px-0>
-    <v-layout row wrap justify-center>
-      <v-flex xs12 class="text-xs-center">
-        <h1 class="display-3 primary--text pt-3 mb-5 my-title">Certified Ethical Hacker v10 (CEH)</h1>
+  <v-container fluid pa-0>
+    <v-layout>
+      <v-flex xs12 class="py-4 px-2 orange elevation-12">
+        <h2 class="display-2 white--text text-xs-center my-title">Certified Ethical Hacker v10 (CEH)</h2>
       </v-flex>
-      <v-flex xs12 md6 mb-4 class="padding">
+    </v-layout>
+    <v-layout row wrap justify-center mt-5>
+      <v-flex xs12 md6 xl5 mb-4 class="padding">
         <Youtube :video="videoCEH" class="elevation-12"/>
       </v-flex>
-      <v-flex xs12 md6 mb-4 class="padding">
+      <v-flex xs12 md6 xl5 mb-4 class="padding">
         <p
           class="subheading secondary--text text-xs-left"
         >The Certified Ethical Hacker (CEH v10) program is a trusted and respected ethical hacking training Program that any information security professional will need. Since its inception in 2003, the Certified Ethical Hacker has been the absolute choice of the industry globally. It is a respected certification in the industry and is listed as a baseline certification on the United States Department of Defense Directive 8570. The CEH exam is ANSI 17024 compliant adding credibility and value to credential members.</p>
@@ -15,7 +17,7 @@
           class="subheading secondary--text text-xs-left"
         >CEH is used as a hiring standard and is a core sought-after certification by many of the Fortune 500 organizations, governments, cybersecurity practices, and a cyber staple in education across many of the most prominent degree programs in top Universities around the globe. Cyber Security as a profession is evolving, the barrier to entry is rising, the demand for Skilled Cyber professionals continues to grow, but it is being refined, demanding a higher level of skill and ability.</p>
       </v-flex>
-      <v-flex xs12 mb-5 class="padding">
+      <v-flex xs12 xl10 mb-5 class="padding">
         <p
           class="subheading secondary--text text-xs-left"
         >The worlds most advanced ethical hacking course with 20 of the most current security domains an ethical hacker will want to know when planning to beef up the information security posture of their organization. In 20 comprehensive modules, the course covers over 270 attack technologies, commonly used by hackers.</p>
@@ -28,15 +30,17 @@
       </v-flex>
     </v-layout>
 
-    <v-layout row wrap justify-center mb-5>
-      <v-flex xs12 mb-5>
-        <v-tabs v-model="active" color="orange" fixed-tabs dark slider-color="secondary">
-          <v-tab ripple>About the Exam</v-tab>
-          <v-tab-item>
-            <v-card class="padding">
+    <v-layout justify-center mb-5>
+      <v-flex xs12 lg11 xl10 class="elevation-12">
+        <v-expansion-panel v-model="panel" expand>
+          <v-expansion-panel-content>
+            <template v-slot:header>
+              <h4 class="primary--text headline text-xs-center">About the Exam</h4>
+            </template>
+            <v-card>
               <v-card-text class="subheading secondary--text">
                 <v-layout row wrap justify-center class="text-xs-left">
-                  <v-flex xs12 md6 xl4>
+                  <v-flex xs12 md6 lg4>
                     <h3 class="headline my-3">About the Exam</h3>
                     <p>
                       <span class="font-weight-bold">Exam Name:</span> CEH 312-50 (ECC EXAM), 312-50 (VUE)
@@ -61,13 +65,19 @@
                 </v-layout>
               </v-card-text>
             </v-card>
-          </v-tab-item>
-
-          <v-tab ripple>Course Outline</v-tab>
-          <v-tab-item>
-            <v-card class="padding">
+          </v-expansion-panel-content>
+          <v-expansion-panel-content>
+            <template v-slot:header>
+              <h4 class="primary--text headline text-xs-center">Course Outline</h4>
+            </template>
+            <v-card>
               <v-card-text class="subheading secondary--text">
-                <v-layout row wrap justify-left class="text-xs-left my-3">
+                <v-layout
+                  row
+                  wrap
+                  justify-left
+                  class="text-xs-left text-sm-center text-md-left ma-3"
+                >
                   <v-flex xs12 md6 lg4 my-2>Introduction to Ethical Hacking</v-flex>
                   <v-flex xs12 md6 lg4 my-2>Footprinting and Reconnaissance</v-flex>
                   <v-flex xs12 md6 lg4 my-2>Scanning Networks</v-flex>
@@ -91,11 +101,12 @@
                 </v-layout>
               </v-card-text>
             </v-card>
-          </v-tab-item>
-
-          <v-tab ripple>Videos</v-tab>
-          <v-tab-item>
-            <v-card class="padding">
+          </v-expansion-panel-content>
+          <v-expansion-panel-content>
+            <template v-slot:header>
+              <h4 class="primary--text headline text-xs-center">Videos</h4>
+            </template>
+            <v-card>
               <v-card-text class="subheading secondary--text">
                 <v-layout row wrap justify-center class="text-xs-center my-5">
                   <v-flex xs12 md6 lg3 px-2 v-for="(video, index) in videos" :key="index">
@@ -104,14 +115,15 @@
                 </v-layout>
               </v-card-text>
             </v-card>
-          </v-tab-item>
-
-          <v-tab ripple>CEH Practical</v-tab>
-          <v-tab-item>
-            <v-card class="padding">
-              <v-card-text class="subheading secondary--text">
+          </v-expansion-panel-content>
+          <v-expansion-panel-content>
+            <template v-slot:header>
+              <h4 class="primary--text headline text-xs-center">CEH Practical</h4>
+            </template>
+            <v-card>
+              <v-card-text>
                 <v-layout row wrap justify-center class="text-xs-left">
-                  <v-flex xs12 lg10>
+                  <v-flex xs12 lg10 class="subheading secondary--text">
                     <h4
                       class="headline text-xs-center mt-1 mb-3"
                     >About the Certified Ethical Hacker (Practical)</h4>
@@ -123,14 +135,14 @@
                 </v-layout>
               </v-card-text>
             </v-card>
-          </v-tab-item>
-        </v-tabs>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
       </v-flex>
     </v-layout>
 
-    <v-layout row wrap justify-center class="py-5 orange">
-      <v-flex xs12 class="text-xs-center">
-        <h3 class="display-1 white--text">Choose a Training Option Below</h3>
+    <v-layout row wrap justify-center>
+      <v-flex xs12 class="py-4 px-2 orange elevation-12">
+        <h2 class="display-2 white--text text-xs-center my-title">Choose a Training Option Below</h2>
       </v-flex>
     </v-layout>
     <CEHiLearn/>
@@ -138,7 +150,7 @@
     <CEHinPerson/>
 
     <v-layout row wrap justify-center>
-      <v-flex xs12 class="text-xs-center pb-5">
+      <v-flex xs12 class="text-xs-center py-5">
         <h2
           class="display-1 secondary--text py-5"
         >Please contact our training team to schedule in-person live training for your private group</h2>
@@ -184,7 +196,7 @@ export default {
           title: "Meet Your Instructor"
         }
       ],
-      active: null
+      panel: [true, false, false, false]
     };
   }
 };
