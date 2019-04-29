@@ -178,13 +178,13 @@ export default {
 .v-card:hover {
   outline: 3px solid #ff9800;
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 992px) {
   .padding-h1 {
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 993px) {
   .padding-h1 {
     padding-left: 50px !important;
     padding-right: 50px !important;
