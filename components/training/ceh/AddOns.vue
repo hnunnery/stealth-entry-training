@@ -1,7 +1,7 @@
 <template>
-  <v-container fluid pa-0 ma-0>
+  <v-container fluid ma-0 pa-0>
     <v-layout row wrap justify-center>
-      <v-flex xs12 class="py-4 px-2 orange elevation-12">
+      <v-flex xs12 lg10 xl8 class="py-4 px-2 orange elevation-12">
         <h2
           class="display-2 white--text text-xs-center my-title"
         >Optional Add On Items for Our Courses</h2>

@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid pb-0>
+  <v-container fluid ma-0 pa-0>
     <v-layout row wrap justify-center align-center>
       <v-flex xs12 lg10 xl8 my-4>
         <v-card class="secondary--text text-xs-center py-3 elevation-12">
@@ -17,33 +17,33 @@
               <h2 class="display-1 secondary--text mt-4">CEH Live Online (iWeek)</h2>
               <p class="display-1 primary--text mt-3 mb-0">$2,899</p>
               <v-container fluid grid-list-xl>
-                <v-layout wrap align-center>
+                <v-layout wrap justify-center align-center>
                   <v-flex xs12 sm10>
                     <v-select :items="dates" label="Choose Dates" v-model="courseDate"></v-select>
+                    <p class="title secondary--text text-xs-left mt-2">Base Package Includes:</p>
+                    <ul class="subheading secondary--text text-xs-left">
+                      <li>
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Live online instructor-led
+                      </li>
+                      <li>
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Official Printed Courseware
+                      </li>
+                      <li>
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; iLabs (6 Months Access)
+                      </li>
+                      <li>
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certificate of Completion
+                      </li>
+                      <li>
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certification Exam Voucher
+                      </li>
+                      <li>
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Exam Preparation
+                      </li>
+                    </ul>
                   </v-flex>
                 </v-layout>
               </v-container>
-              <p class="title secondary--text text-xs-left">Base Package Includes:</p>
-              <ul class="subheading secondary--text text-xs-left">
-                <li>
-                  <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; iWeek – Live online instructor-led
-                </li>
-                <li>
-                  <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Official Printed Courseware
-                </li>
-                <li>
-                  <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; iLabs (6 Months Access)
-                </li>
-                <li>
-                  <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certificate of Completion
-                </li>
-                <li>
-                  <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certification Exam Voucher
-                </li>
-                <li>
-                  <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Exam Preparation
-                </li>
-              </ul>
               <v-btn
                 large
                 class="snipcart-add-item primary gradient mt-4"

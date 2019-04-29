@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Courses from "@/components/Courses";
-import TrainingOptions from "@/components/TrainingOptions";
+import Courses from "@/components/training/Courses";
+import TrainingOptions from "@/components/training/TrainingOptions";
 
 export default {
   name: "index",

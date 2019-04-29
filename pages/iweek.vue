@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import CEHiWeek from "@/components/CEHiWeek";
+import CEHiWeek from "@/components/training/ceh/CEHiWeek";
 
 export default {
   components: {

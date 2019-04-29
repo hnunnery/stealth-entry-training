@@ -1,12 +1,17 @@
 <template>
-  <v-container fluid pt-3 px-0>
+  <v-container fluid ma-0 pa-0>
     <v-layout row wrap justify-center align-center>
-      <v-flex xs12 md6 class="text-xs-center padding">
-        <h2
-          class="display-2 primary--text my-title"
-        >iClass is EC-Council’s Official Delivery Platform</h2>
+      <v-flex xs12 md6 class="text-xs-center padding-h1">
+        <v-flex xs12 py-2 class="orange elevation-12 mb-2 mobile">
+          <h1 class="display-3 white--text">iClass</h1>
+        </v-flex>
+        <h1 class="display-4 secondary--text desktop">iClass</h1>
+        <h2 class="display-2 primary--text my-title">
+          EC-Council’s Official
+          <br>Delivery Platform
+        </h2>
         <p
-          class="headline secondary--text text-xs-left mt-4"
+          class="headline secondary--text text-xs-left mt-4 padding"
           style="line-height: 1.7em !important;"
         >What that means is that if you choose to attend iClass training, your exam will be included in the package and you will not have to apply and prove 2 years of IT Security experience in order to test!</p>
       </v-flex>
@@ -22,7 +27,7 @@
     <v-layout row wrap justify-center>
       <!-- Self-Paced -->
       <v-flex xs12 lg6 class="text-xs-center my-5 spread">
-        <v-card to="/courses/ilearn" class="padding py-4 my-card elevation-12">
+        <v-card to="/ilearn" class="padding py-4 my-card elevation-12">
           <v-img
             src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134826/StealthEntry/eccouncil/self-paced.png"
             width="100"
@@ -58,7 +63,7 @@
 
       <!-- In-Person -->
       <v-flex xs12 lg6 class="text-xs-center my-5 spread">
-        <v-card to="/courses/in-person" class="padding py-4 my-card elevation-12">
+        <v-card to="/in-person" class="padding py-4 my-card elevation-12">
           <v-img
             src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134826/StealthEntry/eccouncil/in-person.png"
             width="100"
@@ -91,7 +96,7 @@
 
       <!-- Live Online -->
       <v-flex xs12 lg6 class="text-xs-center my-5 spread">
-        <v-card to="/courses/iweek" class="padding py-4 my-card-2 elevation-12">
+        <v-card to="/iweek" class="padding py-4 my-card-2 elevation-12">
           <v-img
             src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134826/StealthEntry/eccouncil/online.png"
             width="100"
@@ -172,6 +177,18 @@ export default {
 <style lang="scss" scoped>
 .v-card:hover {
   outline: 3px solid #ff9800;
+}
+@media screen and (max-width: 599px) {
+  .padding-h1 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+@media screen and (min-width: 600px) {
+  .padding-h1 {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
 }
 /* Mobile Phone Styling */
 @media screen and (max-width: 599px) {

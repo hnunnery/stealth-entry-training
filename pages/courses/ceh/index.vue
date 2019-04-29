@@ -41,7 +41,7 @@
               <v-card-text class="subheading secondary--text">
                 <v-layout row wrap justify-center class="text-xs-left">
                   <v-flex xs12 md6 lg4>
-                    <h3 class="headline my-3">About the Exam</h3>
+                    <h3 class="headline my-3">Exam Details</h3>
                     <p>
                       <span class="font-weight-bold">Exam Name:</span> CEH 312-50 (ECC EXAM), 312-50 (VUE)
                     </p>
@@ -162,9 +162,9 @@
 
 <script>
 import Youtube from "@/components/Youtube";
-import CEHiLearn from "@/components/CEHiLearn";
-import CEHiWeek from "@/components/CEHiWeek";
-import CEHinPerson from "@/components/CEHinPerson";
+import CEHiLearn from "@/components/training/ceh/CEHiLearn";
+import CEHiWeek from "@/components/training/ceh/CEHiWeek";
+import CEHinPerson from "@/components/training/ceh/CEHinPerson";
 
 export default {
   components: {

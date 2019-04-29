@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import TrainingOptions from "@/components/TrainingOptions";
+import TrainingOptions from "@/components/training/TrainingOptions";
 
 export default {
   components: {

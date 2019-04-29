@@ -2,7 +2,7 @@
   <v-container fluid class="pb-5 orange">
     <v-layout row wrap justify-left align-center class="pa-0 ma-0">
       <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
-        <nuxt-link to="/courses/certified-ethical-hacker">
+        <nuxt-link to="/courses/ceh">
           <v-img
             src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CEH-Cover-v10-2.jpg"
             alt="CEH"

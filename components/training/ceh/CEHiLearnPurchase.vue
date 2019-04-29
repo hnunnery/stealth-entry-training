@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid pb-0>
+  <v-container fluid ma-0 pa-0>
     <v-layout row wrap justify-center align-center>
       <v-flex xs12 lg10 xl8 my-4>
         <v-card class="secondary--text text-xs-center py-3 elevation-12">
@@ -16,27 +16,33 @@
             <v-flex xs12 lg6 px-4>
               <h2 class="display-1 secondary--text mt-4">CEH Self-Paced (iLearn)</h2>
               <p class="display-1 primary--text mt-3 mb-4">$1,899</p>
-              <p class="title secondary--text text-xs-left">Base Package Includes:</p>
-              <ul class="subheading secondary--text text-xs-left">
-                <li>
-                  <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Streaming Video Training Modules – 1 year access
-                </li>
-                <li>
-                  <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Official EC-Council e-courseware – 1 year access
-                </li>
-                <li>
-                  <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; iLabs, Virtual Lab Platform – 6 months access
-                </li>
-                <li>
-                  <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Instructor-led Training Modules
-                </li>
-                <li>
-                  <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certification Exam Voucher
-                </li>
-                <li>
-                  <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certificate of Completion
-                </li>
-              </ul>
+              <v-container fluid grid-list-xl>
+                <v-layout wrap justify-center align-center>
+                  <v-flex xs12 sm10>
+                    <p class="title secondary--text text-xs-left">Base Package Includes:</p>
+                    <ul class="subheading secondary--text text-xs-left">
+                      <li>
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Streaming Video Training Modules – 1 year access
+                      </li>
+                      <li>
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Official EC-Council e-courseware – 1 year access
+                      </li>
+                      <li>
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; iLabs, Virtual Lab Platform – 6 months access
+                      </li>
+                      <li>
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Instructor-led Training Modules
+                      </li>
+                      <li>
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certification Exam Voucher
+                      </li>
+                      <li>
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certificate of Completion
+                      </li>
+                    </ul>
+                  </v-flex>
+                </v-layout>
+              </v-container>
               <v-btn
                 large
                 class="snipcart-add-item primary gradient mt-4"

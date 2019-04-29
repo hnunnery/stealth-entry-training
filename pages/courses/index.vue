@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Courses from "@/components/Courses";
+import Courses from "@/components/training/Courses";
 
 export default {
   name: "courses",

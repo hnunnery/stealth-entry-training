@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import CEHinPerson from "@/components/CEHinPerson";
+import CEHinPerson from "@/components/training/ceh/CEHinPerson";
 
 export default {
   components: {
