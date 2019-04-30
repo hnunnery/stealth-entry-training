@@ -155,9 +155,9 @@
         >Choose a Training Option Below</h2>
       </v-flex>
     </v-layout>
-    <CEHiLearn/>
-    <CEHiWeek/>
-    <CEHinPerson/>
+    <CEHiLearn :courseHome="true"/>
+    <CEHiWeek :courseHome="true"/>
+    <CEHinPerson :courseHome="true"/>
 
     <v-layout row wrap justify-center>
       <v-flex xs12 class="text-xs-center py-5">

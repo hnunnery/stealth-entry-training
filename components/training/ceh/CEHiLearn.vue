@@ -40,11 +40,18 @@
                         <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certificate of Completion
                       </li>
                     </ul>
-                    <v-btn
-                      to="/courses/ceh/ilearn"
-                      large
-                      class="primary gradient mt-4"
-                    >Purchase Course</v-btn>
+                    <v-layout row wrap justify-center>
+                      <v-flex xs12 sm6 pa-0 v-show="!courseHome">
+                        <v-btn to="/courses/ceh" large class="secondary mt-4">CEH Information</v-btn>
+                      </v-flex>
+                      <v-flex xs12 sm6>
+                        <v-btn
+                          to="/courses/ceh/ilearn"
+                          large
+                          class="primary gradient mt-4"
+                        >Purchase Course</v-btn>
+                      </v-flex>
+                    </v-layout>
                   </v-flex>
                 </v-layout>
               </v-container>
@@ -55,3 +62,9 @@
     </v-layout>
   </v-container>
 </template>
+
+<script>
+export default {
+  props: ["courseHome"]
+};
+</script>

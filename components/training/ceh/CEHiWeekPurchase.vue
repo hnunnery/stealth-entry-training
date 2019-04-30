@@ -43,6 +43,7 @@
                     </ul>
                     <v-btn
                       large
+                      :disabled="!courseDate"
                       class="snipcart-add-item primary gradient mt-4"
                       data-item-id="002"
                       data-item-name="CEH Live Online (iWeek)"
