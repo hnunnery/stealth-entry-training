@@ -2,7 +2,12 @@
   <v-container fluid ma-0 pa-0>
     <v-layout row wrap justify-center>
       <v-flex xs12 lg10 xl8 class="py-4 px-2 orange elevation-12">
-        <h2 class="display-2 white--text text-xs-center my-title">Optional Add On Items</h2>
+        <h2
+          class="display-2 white--text text-xs-center my-title"
+          data-aos="zoom-out-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >Optional Add On Items</h2>
       </v-flex>
       <!-- STORM Took Kit -->
       <v-flex xs12 lg10 xl8 my-4>
