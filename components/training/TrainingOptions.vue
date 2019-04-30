@@ -2,10 +2,10 @@
   <v-container fluid ma-0 pa-0>
     <v-layout row wrap justify-center align-center>
       <v-flex xs12 md6 xl5 class="text-xs-center padding-h1">
-        <v-flex xs12 py-2 class="orange elevation-12 mb-2 mobile">
+        <v-flex xs12 py-2 class="orange elevation-12 mb-3 mobile">
           <h1 class="display-3 white--text">iClass</h1>
         </v-flex>
-        <h1 class="display-4 secondary--text desktop">iClass</h1>
+        <h1 class="display-4 secondary--text pt-3 desktop">iClass</h1>
         <h2
           class="display-2 primary--text my-title"
           data-aos="zoom-out-up"
@@ -16,9 +16,9 @@
           <br>Delivery Platform
         </h2>
         <p
-          class="headline secondary--text text-xs-left mt-4 padding"
+          class="headline secondary--text text-xs-left mt-4 padding hidden-md-only"
           style="line-height: 1.7em !important;"
-        >What that means is that if you choose to attend iClass training, your exam will be included in the package and you will not have to apply and prove 2 years of IT Security experience in order to test!</p>
+        >If you choose to attend iClass training, your exam will be included in the package and you will not have to apply and prove 2 years of IT Security experience in order to test!</p>
       </v-flex>
       <v-flex xs12 md6 xl5 class="text-xs-center my-5 padding">
         <Youtube :video="video" class="elevation-12"/>
@@ -27,7 +27,8 @@
         <h5
           class="display-1 white--text"
           data-aos="zoom-out-up"
-          data-aos-delay="100"
+          data-aos-delay="-100"
+          data-aos-offset="50"
           data-aos-duration="1000"
         >In the iClass platform we offer a few different ways in which you can train.</h5>
       </v-flex>

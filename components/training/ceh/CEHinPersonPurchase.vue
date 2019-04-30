@@ -54,6 +54,7 @@
                       data-item-custom1-required="true"
                       :data-item-custom1-value="this.courseDate"
                     >Add to Cart</v-btn>
+                    <p v-if="!courseDate" class="primary--text">Please Choose Dates</p>
                   </v-flex>
                 </v-layout>
               </v-container>

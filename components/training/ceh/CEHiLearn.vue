@@ -42,7 +42,7 @@
                     </ul>
                     <v-layout row wrap justify-center>
                       <v-flex xs12 sm6 pa-0 v-show="!courseHome">
-                        <v-btn to="/courses/ceh" large class="secondary mt-4">CEH Information</v-btn>
+                        <v-btn to="/courses/ceh" large class="secondary mt-4">CEH Info</v-btn>
                       </v-flex>
                       <v-flex xs12 sm6>
                         <v-btn

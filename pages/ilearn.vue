@@ -1,5 +1,5 @@
 <template>
-  <CEHiLearn/>
+  <CEHiLearn :courseHome="false"/>
 </template>
 
 <script>

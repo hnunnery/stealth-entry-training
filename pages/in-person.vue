@@ -1,5 +1,5 @@
 <template>
-  <CEHinPerson/>
+  <CEHinPerson :courseHome="false"/>
 </template>
 
 <script>

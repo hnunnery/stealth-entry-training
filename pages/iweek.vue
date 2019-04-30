@@ -1,5 +1,5 @@
 <template>
-  <CEHiWeek/>
+  <CEHiWeek :courseHome="false"/>
 </template>
 
 <script>
