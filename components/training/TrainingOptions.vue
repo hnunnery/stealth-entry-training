@@ -34,9 +34,9 @@
     </v-layout>
     <v-layout row wrap justify-center>
       <v-flex xs12 xl10>
-        <v-layout row wrap justify-center>
+        <v-layout row wrap justify-center my-4>
           <!-- Self-Paced -->
-          <v-flex xs12 lg6 class="text-xs-center my-5 spread">
+          <v-flex xs12 lg6 class="text-xs-center my-4 spread">
             <v-card to="/ilearn" class="padding py-4 my-card elevation-12">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134826/StealthEntry/eccouncil/self-paced.png"
@@ -74,7 +74,7 @@
           </v-flex>
 
           <!-- In-Person -->
-          <v-flex xs12 lg6 class="text-xs-center my-5 spread">
+          <v-flex xs12 lg6 class="text-xs-center my-4 spread">
             <v-card to="/in-person" class="padding py-4 my-card elevation-12">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134826/StealthEntry/eccouncil/in-person.png"
@@ -107,7 +107,7 @@
           </v-flex>
 
           <!-- Live Online -->
-          <v-flex xs12 lg6 class="text-xs-center my-5 spread">
+          <v-flex xs12 lg6 class="text-xs-center my-4 spread">
             <v-card to="/iweek" class="padding py-4 my-card-2 elevation-12">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134826/StealthEntry/eccouncil/online.png"
@@ -137,7 +137,7 @@
           </v-flex>
 
           <!-- Private Group -->
-          <v-flex xs12 lg6 class="text-xs-center my-5 spread">
+          <v-flex xs12 lg6 class="text-xs-center my-4 spread">
             <v-card to="/private-group" class="padding py-4 my-card-2 elevation-12">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556392353/StealthEntry/eccouncil/private-group.png"
