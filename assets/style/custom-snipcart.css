@@ -22,3 +22,20 @@
 .snip-layout .snip-btn--highlight:hover {
   background: #045c08;
 }
+
+#snipcart-title {
+  color: #ff9800;
+}
+.snip-header__total-label,
+#snipcart-amount {
+  color: #424242 !important;
+  font-size: 1.3em !important;
+}
+
+@media screen and (max-width: 993px) {
+  .snip-layout .snip-header,
+  .snip-layout .snip-header__total,
+  .snip-layout .snip-footer {
+    background: #ff9800;
+  }
+}
