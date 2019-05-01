@@ -14,7 +14,7 @@
             </nuxt-link>
           </v-flex>
           <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
-            <nuxt-link to="/courses/certified-network-defender">
+            <nuxt-link to="/courses/cnd">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CND-cover-main.jpg"
                 alt="CND"
