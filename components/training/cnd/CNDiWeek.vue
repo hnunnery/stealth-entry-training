@@ -73,13 +73,7 @@ export default {
   data() {
     return {
       courseDate: "",
-      dates: [
-        "May 20-24, 2019",
-        "July 8-12, 2019",
-        "Aug 19-23, 2019",
-        "Oct 6-9, 2019",
-        "Nov 18-22, 2019"
-      ]
+      dates: ["Oct 6-9, 2019"]
     };
   }
 };

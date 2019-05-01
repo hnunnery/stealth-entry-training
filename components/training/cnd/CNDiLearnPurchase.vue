@@ -14,7 +14,7 @@
               ></v-img>
             </v-flex>
             <v-flex xs12 lg6 px-4>
-              <h2 class="display-1 secondary--text mt-4">CEH Self-Paced (iLearn)</h2>
+              <h2 class="display-1 secondary--text mt-4">CND Self-Paced (iLearn)</h2>
               <p class="display-1 primary--text mt-3 mb-4">$1,899</p>
               <v-container fluid grid-list-xl>
                 <v-layout wrap justify-center align-center>
@@ -43,12 +43,12 @@
                     <v-btn
                       large
                       class="snipcart-add-item primary gradient mt-4"
-                      data-item-id="001"
-                      data-item-name="CEH Self-Paced (iLearn)"
+                      data-item-id="004"
+                      data-item-name="CND Self-Paced (iLearn)"
                       data-item-price="1899.00"
-                      data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CEH-Cover-v10-2.jpg"
+                      data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CND-cover-main.jpg"
                       data-item-url="/products.json"
-                      data-item-description="The worlds most advanced ethical hacking course with 20 of the most current security domains an ethical hacker will want to know when planning to beef up the information security posture of their organization."
+                      data-item-description="The world’s most advanced Certified Network Defense course with 14 of the most current network security domains any individuals will ever want to know when they are planning to protect, detect, and respond to the network attacks."
                     >Add to Cart</v-btn>
                   </v-flex>
                 </v-layout>

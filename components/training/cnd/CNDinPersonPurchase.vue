@@ -14,7 +14,7 @@
               ></v-img>
             </v-flex>
             <v-flex xs12 lg6 px-4>
-              <h2 class="display-1 secondary--text mt-4">CEH Live In Person</h2>
+              <h2 class="display-1 secondary--text mt-4">CND Live In Person</h2>
               <p class="display-1 primary--text mt-3 mb-0">$2,899</p>
               <v-container fluid grid-list-xl>
                 <v-layout wrap justify-center align-center>
@@ -45,10 +45,10 @@
                       large
                       :disabled="!courseDate"
                       class="snipcart-add-item primary gradient mt-4"
-                      data-item-id="003"
-                      data-item-name="CEH Live In Person"
+                      data-item-id="006"
+                      data-item-name="CND Live In Person"
                       data-item-price="2899.00"
-                      data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CEH-Cover-v10-2.jpg"
+                      data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CND-cover-main.jpg"
                       data-item-url="/products.json"
                       data-item-custom1-name="Course"
                       data-item-custom1-required="true"
@@ -72,10 +72,7 @@ export default {
     return {
       courseDate: "",
       dates: [
-        "Albuquerque, NM | May 20-24, 2019",
-        "Las Vegas, NV | May 20-24, 2019",
-        "Tampa, FL | July 8-12, 2019",
-        "New Orleans, LA | July 22-26, 2019",
+        "Las Vegas, NV | June 16-21, 2019",
         "Atlanta, GA | Oct 6-9, 2019 (Hacker Halted)"
       ]
     };

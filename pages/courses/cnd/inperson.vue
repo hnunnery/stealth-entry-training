@@ -1,17 +1,17 @@
 <template>
   <div>
-    <CEHinPersonPurchase/>
+    <CNDinPersonPurchase/>
     <AddOns/>
   </div>
 </template>
 
 <script>
-import CEHinPersonPurchase from "@/components/training/ceh/CEHinPersonPurchase";
-import AddOns from "@/components/training/ceh/AddOns";
+import CNDinPersonPurchase from "@/components/training/cnd/CNDinPersonPurchase";
+import AddOns from "@/components/training/cnd/AddOns";
 
 export default {
   components: {
-    CEHinPersonPurchase,
+    CNDinPersonPurchase,
     AddOns
   }
 };

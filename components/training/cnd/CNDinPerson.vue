@@ -73,10 +73,7 @@ export default {
   data() {
     return {
       dates: [
-        "Albuquerque, NM | May 20-24, 2019",
-        "Las Vegas, NV | May 20-24, 2019",
-        "Tampa, FL | July 8-12, 2019",
-        "New Orleans, LA | July 22-26, 2019",
+        "Las Vegas, NV | June 16-21, 2019",
         "Atlanta, GA | Oct 6-9, 2019 (Hacker Halted)"
       ]
     };

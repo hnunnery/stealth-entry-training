@@ -14,7 +14,7 @@
               ></v-img>
             </v-flex>
             <v-flex xs12 lg6 px-4>
-              <h2 class="display-1 secondary--text mt-4">CEH Live Online (iWeek)</h2>
+              <h2 class="display-1 secondary--text mt-4">CND Live Online (iWeek)</h2>
               <p class="display-1 primary--text mt-3 mb-0">$2,899</p>
               <v-container fluid grid-list-xl>
                 <v-layout wrap justify-center align-center>
@@ -45,10 +45,10 @@
                       large
                       :disabled="!courseDate"
                       class="snipcart-add-item primary gradient mt-4"
-                      data-item-id="002"
-                      data-item-name="CEH Live Online (iWeek)"
+                      data-item-id="005"
+                      data-item-name="CND Live Online (iWeek)"
                       data-item-price="2899.00"
-                      data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CEH-Cover-v10-2.jpg"
+                      data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CND-cover-main.jpg"
                       data-item-url="/products.json"
                       data-item-custom1-name="Dates"
                       data-item-custom1-required="true"
@@ -71,13 +71,7 @@ export default {
   data() {
     return {
       courseDate: "",
-      dates: [
-        "May 20-24, 2019",
-        "July 8-12, 2019",
-        "Aug 19-23, 2019",
-        "Oct 6-9, 2019",
-        "Nov 18-22, 2019"
-      ]
+      dates: ["Oct 6-9, 2019"]
     };
   }
 };

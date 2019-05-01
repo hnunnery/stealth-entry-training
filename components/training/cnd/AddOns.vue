@@ -116,13 +116,13 @@
         </v-card>
       </v-flex>
 
-      <!-- CEH Textbook -->
+      <!-- CND Textbook -->
       <v-flex xs12 lg10 xl8 my-4>
         <v-card class="secondary--text text-xs-center py-3 elevation-12">
           <v-layout row wrap justify-center align-center>
             <v-flex xs12 lg5 px-4>
               <v-img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556652594/StealthEntry/eccouncil/CEH-textbook.png"
+                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556749529/StealthEntry/eccouncil/CND-product.png"
                 alt="textbook"
                 class="responsive-img"
                 max-height="500"
@@ -130,17 +130,21 @@
               ></v-img>
             </v-flex>
             <v-flex xs12 lg6 px-4>
-              <h2 class="display-1 secondary--text pt-4">CEH Textbook</h2>
-              <p class="display-1 primary--text mt-3 mb-4">$877</p>
+              <h2 class="display-1 secondary--text pt-4">CND Textbook</h2>
+              <p class="display-1 primary--text mt-3 mb-4">$250</p>
               <p class="subheading text-xs-center">Textbook for Certified Ethical Hacker (CEH)</p>
               <p class="text-xs-center">*Note: Ships to US, Canada and Australia ONLY!</p>
+              <p class="subheading text-xs-center">
+                Regular Price: $577
+                <span class="primary--text">(Only $250 when buying the course)</span>
+              </p>
               <v-btn
                 large
                 class="snipcart-add-item primary gradient mb-4"
-                data-item-id="103"
-                data-item-name="CEH Textbook"
-                data-item-price="877.00"
-                data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556652594/StealthEntry/eccouncil/CEH-textbook.png"
+                data-item-id="113"
+                data-item-name="CND Textbook"
+                data-item-price="250.00"
+                data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556749529/StealthEntry/eccouncil/CND-product.png"
                 data-item-url="/products.json"
               >Add to Cart</v-btn>
             </v-flex>
@@ -194,7 +198,7 @@
           <v-layout row wrap justify-center align-center>
             <v-flex xs12 lg5 px-4>
               <v-img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556480395/StealthEntry/eccouncil/CyberQ-CEH-exam-prep.jpg"
+                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556749524/StealthEntry/eccouncil/CyberQ-CND-exam-prep.jpg"
                 alt="cyber-q"
                 class="responsive-img"
                 max-height="500"
@@ -202,64 +206,21 @@
               ></v-img>
             </v-flex>
             <v-flex xs12 lg6 px-4>
-              <h2 class="display-1 secondary--text pt-4">Cyber Quotient - CEH Exam Prep</h2>
+              <h2 class="display-1 secondary--text pt-4">Cyber Quotient - CND Exam Prep</h2>
               <p class="display-1 primary--text mt-3 mb-4">$149</p>
               <p
                 class="subheading text-xs-left"
-              >The Cyber Quotient (Cyber Q) CEH Exam Prep program helps you prepare for the CEH certification exam. This program helps you focus on areas where you need improvement as well has helps you prepare for the types of questions you are likely to encounter on the actual certification exam. The simulated assessments contained in Cyber Q are designed to help you gauge your proficiency in each area as you progress through your studies. Cyber Q also enables you to focus your learning on specific content within the CEH testing framework. Exam prep programs like Cyber Q are designed to help you improve your time management skills so that you not only feel confident that you can answer the questions correctly but also within the time allowed for the exam.</p>
+              >The Cyber Quotient (Cyber Q) CND Exam Prep program helps you prepare for the CND certification exam. This program helps you focus on areas where you need improvement as well has helps you prepare for the types of questions you are likely to encounter on the actual certification exam. The simulated assessments contained in Cyber Q are designed to help you gauge your proficiency in each area as you progress through your studies. Cyber Q also enables you to focus your learning on specific content within the CND testing framework. Exam prep programs like Cyber Q are designed to help you improve your time management skills so that you not only feel confident that you can answer the questions correctly but also within the time allowed for the exam.</p>
               <p
                 class="title text-xs-left"
-              >Cyber Q CEH Exam Prep includes one year of access to the assessment tool.</p>
+              >Cyber Q CND Exam Prep includes one year of access to the assessment tool.</p>
               <v-btn
                 large
                 class="snipcart-add-item primary gradient mb-4"
-                data-item-id="105"
-                data-item-name="Cyber Quotient - CEH Exam Prep"
+                data-item-id="112"
+                data-item-name="Cyber Quotient - CND Exam Prep"
                 data-item-price="149.00"
-                data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556480395/StealthEntry/eccouncil/CyberQ-CEH-exam-prep.jpg"
-                data-item-url="/products.json"
-              >Add to Cart</v-btn>
-            </v-flex>
-          </v-layout>
-        </v-card>
-      </v-flex>
-
-      <!-- CEH Practical -->
-      <v-flex xs12 lg10 xl8 my-4>
-        <v-card class="secondary--text text-xs-center py-3 elevation-12">
-          <v-layout row wrap justify-center align-center>
-            <v-flex xs12 lg5 px-4>
-              <v-img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556480403/StealthEntry/eccouncil/CEH-Practical-324x324.jpg"
-                alt="practical"
-                class="responsive-img"
-                max-height="500"
-                contain
-              ></v-img>
-            </v-flex>
-            <v-flex xs12 lg6 px-4>
-              <h2 class="display-1 secondary--text pt-4">CEH (Practical)</h2>
-              <p class="display-1 primary--text mt-3 mb-4">$500</p>
-              <p
-                class="title text-xs-left"
-              >This product includes a single CEH (Practical) Aspen Dashboard code that will give you access to:</p>
-              <p
-                class="subheading text-xs-left"
-              >CEH (Practical) Aspen Dashboard (will be active for 365 days upon activation)</p>
-              <p
-                class="subheading text-xs-left"
-              >Accommodation of remote proctoring services (booking of slots need to be 3 days prior the exam date)</p>
-              <p class="subheading text-xs-left">CEH cyber range challenge exam (6 hours)</p>
-              <p
-                class="text-xs-left"
-              >Note: This single CEH (Practical) Aspen Dashboard code will expire 3 months from date of receipt.</p>
-              <v-btn
-                large
-                class="snipcart-add-item primary gradient mb-4"
-                data-item-id="106"
-                data-item-name="CEH (Practical)"
-                data-item-price="500.00"
-                data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556480403/StealthEntry/eccouncil/CEH-Practical-324x324.jpg"
+                data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556749524/StealthEntry/eccouncil/CyberQ-CND-exam-prep.jpg"
                 data-item-url="/products.json"
               >Add to Cart</v-btn>
             </v-flex>
@@ -335,53 +296,13 @@
         </v-card>
       </v-flex>
 
-      <!-- Building Virtual Pentesting Labs -->
+      <!-- CND tshirt -->
       <v-flex xs12 lg10 xl8 my-4>
         <v-card class="secondary--text text-xs-center py-3 elevation-12">
           <v-layout row wrap justify-center align-center>
             <v-flex xs12 lg5 px-4>
               <v-img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556654137/StealthEntry/eccouncil/KevinCardwell-book.jpg"
-                alt="book"
-                class="responsive-img"
-                max-height="500"
-                contain
-              ></v-img>
-            </v-flex>
-            <v-flex xs12 lg6 px-4>
-              <h2 class="display-1 secondary--text pt-4">Building Virtual Pentesting Labs</h2>
-              <p class="display-1 primary--text mt-3 mb-4">$60</p>
-              <p
-                class="title text-xs-left"
-              >Building Virtual Pentesting Labs for Advanced Penetration Testing (Second Edition, signed) by Kevin Cardwell</p>
-              <p
-                class="subheading text-xs-left"
-              >Build intricate virtual architecture to practice any penetration testing technique virtually.</p>
-              <p
-                class="subheading text-xs-left"
-              >Though we are offering the Building Virtual Pentesting Labs book as an additional resource for your cybersecurity library, the views, thoughts, and opinions expressed in the text belong solely to the author.</p>
-              <p class="subheading text-xs-left">*Ships to US, Canada and Australia ONLY!</p>
-              <v-btn
-                large
-                class="snipcart-add-item primary gradient mb-4"
-                data-item-id="109"
-                data-item-name="Building Virtual Pentesting Labs"
-                data-item-price="60.00"
-                data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556654137/StealthEntry/eccouncil/KevinCardwell-book.jpg"
-                data-item-url="/products.json"
-              >Add to Cart</v-btn>
-            </v-flex>
-          </v-layout>
-        </v-card>
-      </v-flex>
-
-      <!-- CEH tshirt -->
-      <v-flex xs12 lg10 xl8 my-4>
-        <v-card class="secondary--text text-xs-center py-3 elevation-12">
-          <v-layout row wrap justify-center align-center>
-            <v-flex xs12 lg5 px-4>
-              <v-img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556480400/StealthEntry/eccouncil/CEH-tshirt-3.jpg"
+                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556652601/StealthEntry/eccouncil/CND-tshirt-2.jpg"
                 alt="tshirt"
                 class="responsive-img"
                 max-height="500"
@@ -389,16 +310,16 @@
               ></v-img>
             </v-flex>
             <v-flex xs12 lg6 px-4>
-              <h2 class="display-1 secondary--text pt-4">CEH T-Shirt</h2>
+              <h2 class="display-1 secondary--text pt-4">CND T-Shirt</h2>
               <p class="display-1 primary--text mt-3 mb-4">$25</p>
               <p class="subheading text-xs-center">Choose your size in the cart</p>
               <v-btn
                 large
                 class="snipcart-add-item primary gradient mb-4"
-                data-item-id="110"
-                data-item-name="CEH T-Shirt"
+                data-item-id="111"
+                data-item-name="CND T-Shirt"
                 data-item-price="25.00"
-                data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556480400/StealthEntry/eccouncil/CEH-tshirt-3.jpg"
+                data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556652601/StealthEntry/eccouncil/CND-tshirt-2.jpg"
                 data-item-url="/products.json"
                 data-item-custom1-name="Size"
                 data-item-custom1-required="true"

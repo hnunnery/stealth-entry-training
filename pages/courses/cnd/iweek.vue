@@ -1,17 +1,17 @@
 <template>
   <div>
-    <CEHiWeekPurchase/>
+    <CNDiWeekPurchase/>
     <AddOns/>
   </div>
 </template>
 
 <script>
-import CEHiWeekPurchase from "@/components/training/ceh/CEHiWeekPurchase";
-import AddOns from "@/components/training/ceh/AddOns";
+import CNDiWeekPurchase from "@/components/training/cnd/CNDiWeekPurchase";
+import AddOns from "@/components/training/cnd/AddOns";
 
 export default {
   components: {
-    CEHiWeekPurchase,
+    CNDiWeekPurchase,
     AddOns
   }
 };
