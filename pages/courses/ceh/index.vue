@@ -10,7 +10,7 @@
         >Certified Ethical Hacker v10 (CEH)</h2>
       </v-flex>
     </v-layout>
-    <v-layout row wrap justify-center mt-5>
+    <v-layout row wrap justify-center align-center mt-5>
       <v-flex xs12 md6 xl5 mb-4 class="padding">
         <Youtube :video="videoCEH" class="elevation-12"/>
       </v-flex>

@@ -167,7 +167,7 @@
             </v-flex>
             <v-flex xs12 lg6 px-4>
               <h2 class="display-1 secondary--text pt-4">Academic Credits</h2>
-              <p class="display-1 primary--text mt-3 mb-4">$877</p>
+              <p class="display-1 primary--text mt-3 mb-4">$260</p>
               <p
                 class="title text-xs-center"
               >Turn Certification into Education with Academic Credits!</p>

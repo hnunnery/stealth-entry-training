@@ -7,20 +7,40 @@
           data-aos="zoom-out-down"
           data-aos-delay="100"
           data-aos-duration="1000"
-        >Certified Network Defender (CND)</h2>
+        >Certified Chief Information Security Officer (CCISO)</h2>
       </v-flex>
     </v-layout>
     <v-layout row wrap justify-center align-center mt-5>
       <v-flex xs12 md6 xl5 mb-4 class="padding">
-        <Youtube :video="videoCND" class="elevation-12"/>
+        <Youtube :video="videoCCISO" class="elevation-12"/>
       </v-flex>
       <v-flex xs12 md6 xl5 mb-4 class="padding">
         <p
           class="subheading secondary--text text-xs-left"
-        >Certified Network Defender (CND) is a vendor-neutral, hands-on, instructor-led comprehensive network security certification training program. It is a skills-based, lab intensive program based on a job-task analysis and cybersecurity education framework by the National Initiative of Cybersecurity Education (NICE). The course has also been mapped to global job roles and to the Department of Defense (DoD) job roles for system/network administrators.</p>
+        >The CCISO Certification is an industry-leading program that recognizes the real-world experience necessary to succeed at the highest executive levels of information security. Bringing together all the components required for a C-Level positions, the CCISO program combines audit management, governance, IS controls, human capital management, strategic program development, and the financial expertise vital to leading a highly successful IS program. The job of the CISO is far too important to be learned by trial and error. Executive level management skills are not areas that should be learned on the job.</p>
         <p
           class="subheading secondary--text text-xs-left"
-        >The program prepares network administrators on network security technologies and operations to attain Defense-in-Depth network security preparedness. It covers the protect, detect and respond approach to network security. The course contains hands-on labs, based on major network security tools and techniques which will provide network administrators real world expertise on current network security technologies and operations. The study-kit provides over 10 GB of network security best practices, assessments and protection tools. The kit also contains templates for various network policies and white papers for additional learning.</p>
+        >The CCISO aims to bridge the gap between the executive management knowledge that CISOs need and the technical knowledge that many sitting and aspiring CISOs have. This can be a crucial gap as a practitioner endeavors to move from mid-management to upper, executive management roles. Much of this is traditionally learned as on the job training, but the CCISO Training Program can be the key to a successful transition to the highest ranks of information security management.</p>
+      </v-flex>
+      <v-flex xs12 xl10 mb-5 class="padding">
+        <h3 class="headline primary--text text-xs-center mb-3">Course Information</h3>
+        <p
+          class="subheading secondary--text text-xs-left"
+        >EC-Council’s Certified CISO Program has certified leading information security professionals around the world. A core group of high-level information security executives, the CCISO Advisory Board, formed the foundation of the program and outlined the content covered by the exam, body of knowledge, and training. Some members of the Board contributed as authors, others as exam writers, others as quality assurance checks, and still others as instructors.</p>
+        <p
+          class="subheading secondary--text text-xs-left"
+        >Each segment of the program was developed with the aspiring and sitting CISO in mind and looks to transfer the knowledge of seasoned executives to the next generation of leaders in the areas that are most critical in the development and maintenance of a successful information security program. Material in the CCISO Program assumes a high-level understanding of technical topics and doesn’t spend much time on strictly technical information, but rather on the application of technical knowledge to an information security executive’s day-to-day work.</p>
+        <a
+          href="https://ciso.eccouncil.org/wp-content/uploads/2019/03/CCISO-Exam-Eligibility-Application-Form-2019.pdf"
+          target="_blank"
+          download
+          class="text-xs-center"
+        >
+          <p
+            class="primary--text subheading"
+            style="text-decoration: underline;"
+          >Download Exam Eligibility Application</p>
+        </a>
       </v-flex>
     </v-layout>
 
@@ -36,20 +56,17 @@
                 <v-layout row wrap justify-center class="text-xs-left">
                   <v-flex xs12 md6 lg4>
                     <h3 class="headline my-3">Exam Details</h3>
-                    <p>
-                      <span class="font-weight-bold">Exam Name:</span> CND (312-38) Exam
+                    <p class="py-2">
+                      <span class="font-weight-bold">Number of Questions:</span> 150
                     </p>
-                    <p>
-                      <span class="font-weight-bold">Number of Questions:</span> 100
+                    <p class="py-2">
+                      <span class="font-weight-bold">Test Duration:</span> 2.5 Hours
                     </p>
-                    <p>
-                      <span class="font-weight-bold">Test Duration:</span> 4 Hours
+                    <p class="py-2">
+                      <span class="font-weight-bold">Test Format:</span> Multiple Choice
                     </p>
-                    <p>
-                      <span class="font-weight-bold">Test Format:</span> Interactive Multiple Choice Questions
-                    </p>
-                    <p>
-                      <span class="font-weight-bold">Test Delivery:</span> ECC EXAM
+                    <p class="py-2">
+                      <span class="font-weight-bold">Test Delivery:</span> ECC Exam Portal
                     </p>
                   </v-flex>
                   <v-flex xs12 md6 class="secondary--text">
@@ -60,7 +77,7 @@
               </v-card-text>
             </v-card>
           </v-expansion-panel-content>
-          <v-expansion-panel-content>
+          <!-- <v-expansion-panel-content>
             <template v-slot:header>
               <h4 class="primary--text headline text-xs-center">Course Outline</h4>
             </template>
@@ -120,7 +137,7 @@
                 </v-layout>
               </v-card-text>
             </v-card>
-          </v-expansion-panel-content>
+          </v-expansion-panel-content>-->
           <v-expansion-panel-content>
             <template v-slot:header>
               <h4 class="primary--text headline text-xs-center">Videos</h4>
@@ -128,7 +145,7 @@
             <v-card>
               <v-card-text class="subheading secondary--text">
                 <v-layout row wrap justify-center class="text-xs-center my-5">
-                  <v-flex xs12 md6 lg3 px-2 v-for="(video, index) in videos" :key="index">
+                  <v-flex xs12 md6 px-2 v-for="(video, index) in videos" :key="index">
                     <Youtube :video="video"/>
                   </v-flex>
                 </v-layout>
@@ -149,9 +166,9 @@
         >Choose a Training Option Below</h2>
       </v-flex>
     </v-layout>
-    <CNDiLearn :courseHome="true"/>
-    <CNDiWeek :courseHome="true"/>
-    <CNDinPerson :courseHome="true"/>
+    <CCISOiLearn :courseHome="true"/>
+    <CCISOiWeek :courseHome="true"/>
+    <CCISOinPerson :courseHome="true"/>
 
     <v-layout row wrap justify-center>
       <v-flex xs12 class="text-xs-center py-5">
@@ -168,34 +185,30 @@
 
 <script>
 import Youtube from "@/components/Youtube";
-import CNDiLearn from "@/components/training/cnd/CNDiLearn";
-import CNDiWeek from "@/components/training/cnd/CNDiWeek";
-import CNDinPerson from "@/components/training/cnd/CNDinPerson";
+import CCISOiLearn from "@/components/training/cciso/CCISOiLearn";
+import CCISOiWeek from "@/components/training/cciso/CCISOiWeek";
+import CCISOinPerson from "@/components/training/cciso/CCISOinPerson";
 
 export default {
   components: {
     Youtube,
-    CNDiLearn,
-    CNDiWeek,
-    CNDinPerson
+    CCISOiLearn,
+    CCISOiWeek,
+    CCISOinPerson
   },
   data() {
     return {
-      videoCND: {
-        id: "CeqtOuBj9w8"
+      videoCCISO: {
+        id: "nG1_7I83c8s"
       },
       videos: [
         {
-          id: "Db1SC239yuk",
-          title: "CND with Eric Reed"
-        },
-        {
-          id: "iU_7zKypJZI",
-          title: "iLabs Demo"
-        },
-        {
-          id: "yHxUu4ciMCA",
+          id: "elRcmDLZdDw",
           title: "Meet Your Instructor"
+        },
+        {
+          id: "JF7DhYYAePg",
+          title: "What CCISO Students are Saying"
         }
       ],
       panel: [true, false, false, false]

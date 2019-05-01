@@ -3,7 +3,7 @@
     <v-layout row wrap justify-center align-center class="pa-0 ma-0">
       <v-flex xs12 xl10>
         <h2 class="display-1 secondary--text text-xs-center my-3">Choose a Course</h2>
-        <v-layout row wrap justify-left>
+        <v-layout row wrap justify-center>
           <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
             <nuxt-link to="/courses/ceh">
               <v-img
@@ -23,7 +23,16 @@
             </nuxt-link>
           </v-flex>
           <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
-            <nuxt-link to="/courses/certified-network-defender">
+            <nuxt-link to="/courses/cciso">
+              <v-img
+                src="https://res.cloudinary.com/missionwebdev/image/upload/v1556397505/StealthEntry/eccouncil/CCISO-cover-main.jpg"
+                alt="CCISO"
+                class="responsive-img elevation-12 course-tile"
+              ></v-img>
+            </nuxt-link>
+          </v-flex>
+          <!-- <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+            <nuxt-link to="/courses/chfi">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397355/StealthEntry/eccouncil/CHFI-cover-main.jpg"
                 alt="CHFI"
@@ -36,15 +45,6 @@
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/ECSAV10-Cover.jpg"
                 alt="ECSA"
-                class="responsive-img elevation-12 course-tile"
-              ></v-img>
-            </nuxt-link>
-          </v-flex>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
-            <nuxt-link to="/courses/certified-security-analyst">
-              <v-img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/v1556397505/StealthEntry/eccouncil/CCISO-cover-main.jpg"
-                alt="CCISO"
                 class="responsive-img elevation-12 course-tile"
               ></v-img>
             </nuxt-link>
@@ -75,7 +75,7 @@
                 class="responsive-img elevation-12 course-tile"
               ></v-img>
             </nuxt-link>
-          </v-flex>
+          </v-flex>-->
         </v-layout>
       </v-flex>
     </v-layout>
