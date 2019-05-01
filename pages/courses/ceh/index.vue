@@ -23,6 +23,7 @@
         >CEH is used as a hiring standard and is a core sought-after certification by many of the Fortune 500 organizations, governments, cybersecurity practices, and a cyber staple in education across many of the most prominent degree programs in top Universities around the globe. Cyber Security as a profession is evolving, the barrier to entry is rising, the demand for Skilled Cyber professionals continues to grow, but it is being refined, demanding a higher level of skill and ability.</p>
       </v-flex>
       <v-flex xs12 xl10 mb-5 class="padding">
+        <h3 class="headline primary--text text-xs-center mb-3">Course Information</h3>
         <p
           class="subheading secondary--text text-xs-left"
         >The worlds most advanced ethical hacking course with 20 of the most current security domains an ethical hacker will want to know when planning to beef up the information security posture of their organization. In 20 comprehensive modules, the course covers over 270 attack technologies, commonly used by hackers.</p>
@@ -32,6 +33,14 @@
         <p
           class="subheading secondary--text text-xs-left"
         >The goal of this course is to help you master an ethical hacking methodology that can be used in a penetration testing or ethical hacking situation. You walk out the door with ethical hacking skills that are highly in demand, as well as the globally recognized Certified Ethical Hacker certification!</p>
+        <a
+          href="https://www.eccouncil.org/wp-content/uploads/2016/07/CEHv10-Brochure.pdf"
+          target="_blank"
+          download
+          class="text-xs-center"
+        >
+          <p class="primary--text subheading" style="text-decoration: underline;">Download Brochure</p>
+        </a>
       </v-flex>
     </v-layout>
 
