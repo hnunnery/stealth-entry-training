@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="pb-5 orange">
+  <v-container fluid class="pb-5 orange hero-background-circuit">
     <v-layout row wrap justify-center align-center class="pa-0 ma-0">
       <v-flex xs12 xl10>
         <h2 class="display-1 secondary--text text-xs-center my-3">Choose a Course</h2>
