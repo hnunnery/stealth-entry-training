@@ -16,6 +16,26 @@
           <v-icon class="primary--text navbar-icons">fas fa-chalkboard-teacher</v-icon>&nbsp;
           <span class="nav-text secondary--text">Training</span>
         </v-btn>
+
+        <!-- <v-menu>
+          <template v-slot:activator="{ on }">
+            <v-btn flat color="primary" dark v-on="on">
+              <v-icon class="primary--text navbar-icons">fas fa-caret-square-down</v-icon>&nbsp;
+              <span class="nav-text secondary--text">More</span>
+            </v-btn>
+          </template>
+          <v-list>
+            <v-list-tile v-for="(item, index) in items" :key="index" :to="item.route">
+              <v-list-tile-content>
+                <v-list-tile-title>
+                  <v-icon class="primary--text">fas {{item.icon}}</v-icon>
+                  <span class="secondary--text font-weight-medium pl-2">{{item.title}}</span>
+                </v-list-tile-title>
+              </v-list-tile-content>
+            </v-list-tile>
+          </v-list>
+        </v-menu>-->
+
         <v-btn flat class="snipcart-checkout">
           <span class="snipcart-summary snipcart-summary-empty">
             <v-badge color="#f1f1f1">
@@ -60,6 +80,38 @@
             >TRAINING</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
+
+        <!-- <v-menu>
+          <template v-slot:activator="{ on }">
+            <v-list-tile v-on="on" class="sidenav-element">
+              <v-list-tile-action>
+                <v-icon class="primary--text text-xs-center">fas fa-caret-square-down</v-icon>
+              </v-list-tile-action>
+              <v-list-tile-content>
+                <v-list-tile-title
+                  class="secondary--text nav-font-size font-weight-medium mobile-nav"
+                >MORE</v-list-tile-title>
+              </v-list-tile-content>
+            </v-list-tile>
+          </template>
+          <v-list>
+            <v-list-tile
+              v-for="(item, index) in items"
+              :key="index"
+              :to="item.route"
+              class="sidenav-element"
+            >
+              <v-list-tile-action>
+                <v-icon class="primary--text text-xs-center">fas {{item.icon}}</v-icon>
+              </v-list-tile-action>
+              <v-list-tile-content>
+                <v-list-tile-title
+                  class="secondary--text nav-font-size font-weight-medium mobile-nav"
+                >{{item.title}}</v-list-tile-title>
+              </v-list-tile-content>
+            </v-list-tile>
+          </v-list>
+        </v-menu>-->
 
         <v-list-tile
           class="snipcart-summary snipcart-summary-empty snipcart-checkout bottom-sidenav-element sidenav-element"
@@ -141,7 +193,11 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: "Vuetify.js"
+      title: "Vuetify.js",
+      items: [
+        { title: "MEDIA", route: "/media", icon: "fa-newspaper" },
+        { title: "CONTRACTS", route: "/contracts", icon: "fa-file-contract" }
+      ]
     };
   },
   mounted() {
