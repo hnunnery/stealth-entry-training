@@ -18,8 +18,12 @@
         </v-btn>
         <v-btn flat class="snipcart-checkout">
           <span class="snipcart-summary snipcart-summary-empty">
-            <v-icon class="primary--text navbar-icons">fas fa-shopping-cart</v-icon>
-            <span class="snipcart-total-price nav-text secondary--text"></span>
+            <v-badge color="#f1f1f1">
+              <template v-slot:badge>
+                <span class="snipcart-total-items primary--text"></span>
+              </template>
+              <v-icon color="orange" class="navbar-icons">fas fa-shopping-cart</v-icon>
+            </v-badge>
           </span>
         </v-btn>
       </v-toolbar-items>
@@ -139,6 +143,9 @@ export default {
       rightDrawer: false,
       title: "Vuetify.js"
     };
+  },
+  mounted() {
+    Snipcart.execute("config", "show_continue_shopping", true);
   }
 };
 </script>
