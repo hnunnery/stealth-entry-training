@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid ma-0 pa-0>
+  <v-container fluid ma-0 pa-0 class="hero-background-circuit">
     <v-layout row wrap justify-center align-center>
       <v-flex xs12 lg10 xl8 my-4>
         <v-card class="secondary--text text-xs-center py-3 elevation-12">

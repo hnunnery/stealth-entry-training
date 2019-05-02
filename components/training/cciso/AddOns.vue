@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid ma-0 pa-0>
+  <v-container fluid ma-0 pa-0 class="hero-background-circuit">
     <v-layout row wrap justify-center>
       <v-flex xs12 lg10 xl8 class="py-4 px-2 orange elevation-12">
         <h2
