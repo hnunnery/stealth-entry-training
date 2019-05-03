@@ -124,7 +124,7 @@
         </v-card>
       </v-flex>
 
-      <!-- CCISO Textbook -->
+      <!-- CCISO Mug 1 -->
       <v-flex xs12 lg10 xl8 my-4>
         <v-card class="secondary--text text-xs-center py-3 elevation-12">
           <v-layout row wrap justify-center align-center>
@@ -157,7 +157,7 @@
         </v-card>
       </v-flex>
 
-      <!-- CCISO Textbook -->
+      <!-- CCISO Mug 2 -->
       <v-flex xs12 lg10 xl8 my-4>
         <v-card class="secondary--text text-xs-center py-3 elevation-12">
           <v-layout row wrap justify-center align-center>

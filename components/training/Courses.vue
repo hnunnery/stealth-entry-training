@@ -40,8 +40,8 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <!-- <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
-            <nuxt-link to="/courses/certified-security-analyst">
+          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+            <nuxt-link to="/courses/ecsa">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/ECSAV10-Cover.jpg"
                 alt="ECSA"
@@ -50,6 +50,15 @@
             </nuxt-link>
           </v-flex>
           <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+            <nuxt-link to="/courses/ecih">
+              <v-img
+                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397883/StealthEntry/eccouncil/ECIH-Product-Cover.jpg"
+                alt="ECIH"
+                class="responsive-img elevation-12 course-tile"
+              ></v-img>
+            </nuxt-link>
+          </v-flex>
+          <!-- <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
             <nuxt-link to="/courses/certified-security-analyst">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397512/StealthEntry/eccouncil/CSCU-cover-main.jpg"
@@ -67,15 +76,7 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
-            <nuxt-link to="/courses/certified-security-analyst">
-              <v-img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397883/StealthEntry/eccouncil/ECIH-Product-Cover.jpg"
-                alt="ECIH"
-                class="responsive-img elevation-12 course-tile"
-              ></v-img>
-            </nuxt-link>
-          </v-flex>-->
+          -->
         </v-layout>
       </v-flex>
     </v-layout>
