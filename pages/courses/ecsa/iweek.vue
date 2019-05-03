@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import ECSAiWeekPurchase from "@/components/training/ECSA/ECSAiWeekPurchase";
-import AddOns from "@/components/training/ECSA/AddOns";
+import ECSAiWeekPurchase from "@/components/training/ecsa/ECSAiWeekPurchase";
+import AddOns from "@/components/training/ecsa/AddOns";
 
 export default {
   components: {

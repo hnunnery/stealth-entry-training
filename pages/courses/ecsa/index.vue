@@ -20,7 +20,7 @@
         >The ECSA course is a fully hands-on program with labs and exercises that cover real world scenarios. By practicing the skills that are provided to you in the ECSA class, we are able to bring you up to speed with the skills to uncover the security threats that organizations are vulnerable to.</p>
         <p
           class="subheading secondary--text text-xs-left"
-        > This can be achieved effectively with the EC-Council iLabs Cyber Range. It allows you to dynamically access a host of Virtual Machines preconfigured with vulnerabilities, exploits, tools, and scripts from anywhere with an internet connection.</p>
+        >This can be achieved effectively with the EC-Council iLabs Cyber Range. It allows you to dynamically access a host of Virtual Machines preconfigured with vulnerabilities, exploits, tools, and scripts from anywhere with an internet connection.</p>
         <p
           class="subheading secondary--text text-xs-left"
         >Our guided step-by-step labs include exercises with detailed tasks, supporting tools, and additional materials allowing you to launch a complete live range for any form of hacking or testing.</p>
@@ -36,7 +36,9 @@
         <p
           class="subheading secondary--text text-xs-left"
         >Organizations today demand a professional level pentesting program and not just pentesting programs that provide training on how to hack through applications and networks. Such professional level programs can only be achieved when the core of the curricula maps with and is compliant to government and/or industry published pentesting frameworks. This course is a part of the VAPT Track of EC-Council. This is a “Professional” level course, with the Certified Ethical Hacker being the “Core” and the Licensed Penetration Tester being the “Master” level certification.</p>
-        <p class="subheading secondary--text text-xs-left">In the new ECSAv10 course, students that passes the knowledge exam are given an option to pursue a fully practical exam that provides an avenue for them to test their skills, earning them the ECSA (Practical) credential. This new credential allows employers to validate easily the skills of the student.</p>
+        <p
+          class="subheading secondary--text text-xs-left"
+        >In the new ECSAv10 course, students that passes the knowledge exam are given an option to pursue a fully practical exam that provides an avenue for them to test their skills, earning them the ECSA (Practical) credential. This new credential allows employers to validate easily the skills of the student.</p>
       </v-flex>
     </v-layout>
 
@@ -73,21 +75,11 @@
                   </v-flex>
                   <v-flex xs12 md6 lg5 xl4 class="secondary--text">
                     <h3 class="headline my-3">Who is it for?</h3>
-                    <p>
-                      Ethical Hackers
-                    </p>
-                    <p>
-                      Penetration Testers
-                    </p>
-                    <p>
-                      Network server administrators
-                    </p>
-                    <p>
-                      Firewall Administrators
-                    </p>
-                    <p>
-                      Security Testers
-                    </p>
+                    <p>Ethical Hackers</p>
+                    <p>Penetration Testers</p>
+                    <p>Network server administrators</p>
+                    <p>Firewall Administrators</p>
+                    <p>Security Testers</p>
                     <p>System Administrators and Risk Assessment professionals</p>
                   </v-flex>
                 </v-layout>
@@ -106,14 +98,42 @@
                   justify-left
                   class="text-xs-left text-sm-center text-md-left ma-3"
                 >
-                  <v-flex xs12 md6 my-2>Module 00: Penetration Testing Essential Concepts (Self-Study)</v-flex>
-                  <v-flex xs12 md6 my-2>Module 01: Introduction to Penetration Testing and Methodologies</v-flex>
-                  <v-flex xs12 md6 my-2>Module 02: Penetration Testing Scoping and Engagement Methodology</v-flex>
+                  <v-flex
+                    xs12
+                    md6
+                    my-2
+                  >Module 00: Penetration Testing Essential Concepts (Self-Study)</v-flex>
+                  <v-flex
+                    xs12
+                    md6
+                    my-2
+                  >Module 01: Introduction to Penetration Testing and Methodologies</v-flex>
+                  <v-flex
+                    xs12
+                    md6
+                    my-2
+                  >Module 02: Penetration Testing Scoping and Engagement Methodology</v-flex>
                   <v-flex xs12 md6 my-2>Module 03: Open-Source Intelligence (OSINT) Methodology</v-flex>
-                  <v-flex xs12 md6 my-2>Module 04: Social Engineering Penetration Testing Methodology</v-flex>
-                  <v-flex xs12 md6 my-2>Module 05: Network Penetration Testing Methodology – External</v-flex>
-                  <v-flex xs12 md6 my-2>Module 06: Network Penetration Testing Methodology – Internal</v-flex>
-                  <v-flex xs12 md6 my-2>Module 07: Network Penetration Testing Methodology – Perimeter Devices</v-flex>
+                  <v-flex
+                    xs12
+                    md6
+                    my-2
+                  >Module 04: Social Engineering Penetration Testing Methodology</v-flex>
+                  <v-flex
+                    xs12
+                    md6
+                    my-2
+                  >Module 05: Network Penetration Testing Methodology – External</v-flex>
+                  <v-flex
+                    xs12
+                    md6
+                    my-2
+                  >Module 06: Network Penetration Testing Methodology – Internal</v-flex>
+                  <v-flex
+                    xs12
+                    md6
+                    my-2
+                  >Module 07: Network Penetration Testing Methodology – Perimeter Devices</v-flex>
                   <v-flex xs12 md6 my-2>Module 08: Web Application Penetration Testing Methodology</v-flex>
                   <v-flex xs12 md6 my-2>Module 09: Database Penetration Testing Methodology</v-flex>
                   <v-flex xs12 md6 my-2>Module 10: Wireless Penetration Testing Methodology</v-flex>
@@ -148,8 +168,10 @@
                     <h4
                       class="headline text-xs-center mt-1 mb-3"
                     >About the EC-Council Certified Security Analyst (Practical)</h4>
-                    <p>ECSA (Practical) is a 12-hour, rigorous practical exam built to test your penetration testing skills.
-ECSA (Practical) presents you with an organization and its network environment, containing multiple hosts. The internal network consists of several subnets housing various organizational units. It is made up of militarized and demilitarized zones, connected with a huge pool of database servers in a database zone. As a security precaution, and by design, all the internal resource zones are confi­gured with different subnet IPs. The militarized zone houses the domain controllers and application servers that provide application frameworks for various departments of the organization.</p>
+                    <p>
+                      ECSA (Practical) is a 12-hour, rigorous practical exam built to test your penetration testing skills.
+                      ECSA (Practical) presents you with an organization and its network environment, containing multiple hosts. The internal network consists of several subnets housing various organizational units. It is made up of militarized and demilitarized zones, connected with a huge pool of database servers in a database zone. As a security precaution, and by design, all the internal resource zones are confi­gured with different subnet IPs. The militarized zone houses the domain controllers and application servers that provide application frameworks for various departments of the organization.
+                    </p>
                     <p>The candidates are required to demonstrate the application of the penetration testing methodology that is presented in the ECSA program, and are required to perform a comprehensive security audit of an organization, just like in the real world. You will start with challenges requiring you to perform advanced network scans beyond perimeter defenses, leading to automated and manual vulnerability analysis, exploit selection, customization, launch, and post exploitation maneuvers.</p>
                   </v-flex>
                 </v-layout>
@@ -187,9 +209,9 @@ ECSA (Practical) presents you with an organization and its network environment, 
 
 <script>
 import Youtube from "@/components/Youtube";
-import ECSAiLearn from "@/components/training/ECSA/ECSAiLearn";
-import ECSAiWeek from "@/components/training/ECSA/ECSAiWeek";
-import ECSAinPerson from "@/components/training/ECSA/ECSAinPerson";
+import ECSAiLearn from "@/components/training/ecsa/ECSAiLearn";
+import ECSAiWeek from "@/components/training/ecsa/ECSAiWeek";
+import ECSAinPerson from "@/components/training/ecsa/ECSAinPerson";
 
 export default {
   components: {

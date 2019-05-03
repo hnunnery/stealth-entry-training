@@ -141,9 +141,9 @@
 
 <script>
 import Youtube from "@/components/Youtube";
-import CHFIiLearn from "@/components/training/CHFI/CHFIiLearn";
-import CHFIiWeek from "@/components/training/CHFI/CHFIiWeek";
-import CHFIinPerson from "@/components/training/CHFI/CHFIinPerson";
+import CHFIiLearn from "@/components/training/chfi/CHFIiLearn";
+import CHFIiWeek from "@/components/training/chfi/CHFIiWeek";
+import CHFIinPerson from "@/components/training/chfi/CHFIinPerson";
 
 export default {
   components: {

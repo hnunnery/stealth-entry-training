@@ -13,9 +13,9 @@
 import CEHinPerson from "@/components/training/ceh/CEHinPerson";
 import CNDinPerson from "@/components/training/cnd/CNDinPerson";
 import CCISOinPerson from "@/components/training/cciso/CCISOinPerson";
-import CHFIinPerson from "@/components/training/CHFI/CHFIinPerson";
-import ECSAinPerson from "@/components/training/ECSA/ECSAinPerson";
-import ECIHinPerson from "@/components/training/ECIH/ECIHinPerson";
+import CHFIinPerson from "@/components/training/chfi/CHFIinPerson";
+import ECSAinPerson from "@/components/training/ecsa/ECSAinPerson";
+import ECIHinPerson from "@/components/training/ecih/ECIHinPerson";
 
 export default {
   components: {

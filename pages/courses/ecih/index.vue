@@ -155,9 +155,9 @@
 
 <script>
 import Youtube from "@/components/Youtube";
-import ECIHiLearn from "@/components/training/ECIH/ECIHiLearn";
-import ECIHiWeek from "@/components/training/ECIH/ECIHiWeek";
-import ECIHinPerson from "@/components/training/ECIH/ECIHinPerson";
+import ECIHiLearn from "@/components/training/ecih/ECIHiLearn";
+import ECIHiWeek from "@/components/training/ecih/ECIHiWeek";
+import ECIHinPerson from "@/components/training/ecih/ECIHinPerson";
 
 export default {
   components: {

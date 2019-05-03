@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import ECSAiLearnPurchase from "@/components/training/ECSA/ECSAiLearnPurchase";
-import AddOns from "@/components/training/ECSA/AddOns";
+import ECSAiLearnPurchase from "@/components/training/ecsa/ECSAiLearnPurchase";
+import AddOns from "@/components/training/ecsa/AddOns";
 
 export default {
   components: {

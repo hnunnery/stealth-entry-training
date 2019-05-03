@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import ECIHinPersonPurchase from "@/components/training/ECIH/ECIHinPersonPurchase";
-import AddOns from "@/components/training/ECIH/AddOns";
+import ECIHinPersonPurchase from "@/components/training/ecih/ECIHinPersonPurchase";
+import AddOns from "@/components/training/ecih/AddOns";
 
 export default {
   components: {

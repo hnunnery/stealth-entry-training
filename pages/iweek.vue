@@ -13,9 +13,9 @@
 import CEHiWeek from "@/components/training/ceh/CEHiWeek";
 import CNDiWeek from "@/components/training/cnd/CNDiWeek";
 import CCISOiWeek from "@/components/training/cciso/CCISOiWeek";
-import CHFIiWeek from "@/components/training/CHFI/CHFIiWeek";
-import ECSAiWeek from "@/components/training/ECSA/ECSAiWeek";
-import ECIHiWeek from "@/components/training/ECIH/ECIHiWeek";
+import CHFIiWeek from "@/components/training/chfi/CHFIiWeek";
+import ECSAiWeek from "@/components/training/ecsa/ECSAiWeek";
+import ECIHiWeek from "@/components/training/ecih/ECIHiWeek";
 
 export default {
   components: {

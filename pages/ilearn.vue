@@ -13,9 +13,9 @@
 import CEHiLearn from "@/components/training/ceh/CEHiLearn";
 import CNDiLearn from "@/components/training/cnd/CNDiLearn";
 import CCISOiLearn from "@/components/training/cciso/CCISOiLearn";
-import CHFIiLearn from "@/components/training/CHFI/CHFIiLearn";
-import ECSAiLearn from "@/components/training/ECSA/ECSAiLearn";
-import ECIHiLearn from "@/components/training/ECIH/ECIHiLearn";
+import CHFIiLearn from "@/components/training/chfi/CHFIiLearn";
+import ECSAiLearn from "@/components/training/ecsa/ECSAiLearn";
+import ECIHiLearn from "@/components/training/ecih/ECIHiLearn";
 
 export default {
   components: {

@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import CHFIiLearnPurchase from "@/components/training/CHFI/CHFIiLearnPurchase";
-import AddOns from "@/components/training/CHFI/AddOns";
+import CHFIiLearnPurchase from "@/components/training/chfi/CHFIiLearnPurchase";
+import AddOns from "@/components/training/chfi/AddOns";
 
 export default {
   components: {
