@@ -31,7 +31,7 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <!-- <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
             <nuxt-link to="/courses/chfi">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397355/StealthEntry/eccouncil/CHFI-cover-main.jpg"
@@ -40,7 +40,7 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+          <!-- <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
             <nuxt-link to="/courses/certified-security-analyst">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/ECSAV10-Cover.jpg"
