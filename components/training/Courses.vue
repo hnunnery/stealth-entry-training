@@ -3,7 +3,7 @@
     <v-layout row wrap justify-center align-center class="pa-0 ma-0">
       <v-flex xs12 xl10>
         <h2 class="display-1 secondary--text text-xs-center my-3">Choose a Course</h2>
-        <v-layout row wrap justify-center>
+        <v-layout row wrap justify-left>
           <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
             <nuxt-link to="/courses/ceh">
               <v-img

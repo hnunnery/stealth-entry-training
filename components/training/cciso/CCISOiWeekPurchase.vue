@@ -42,7 +42,7 @@
                       large
                       :disabled="!courseDate"
                       class="snipcart-add-item primary gradient mt-4"
-                      data-item-id="005"
+                      data-item-id="008"
                       data-item-name="CCISO Live Online (iWeek)"
                       data-item-price="3499.00"
                       data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397505/StealthEntry/eccouncil/CCISO-cover-main.jpg"

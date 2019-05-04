@@ -16,5 +16,215 @@
     "price": 2899.0,
     "name": "CEH Live in Person",
     "url": "/products.json"
+  },
+  {
+    "id": "004",
+    "price": 1899.0,
+    "name": "CND Self-Paced (iLearn)",
+    "url": "/products.json"
+  },
+  {
+    "id": "005",
+    "price": 2899.0,
+    "name": "CND Live Online (iWeek)",
+    "url": "/products.json"
+  },
+  {
+    "id": "006",
+    "price": 2899.0,
+    "name": "CND Live in Person",
+    "url": "/products.json"
+  },
+  {
+    "id": "007",
+    "price": 2499.0,
+    "name": "CCISO Self-Paced (iLearn)",
+    "url": "/products.json"
+  },
+  {
+    "id": "008",
+    "price": 3499.0,
+    "name": "CCISO Live Online (iWeek)",
+    "url": "/products.json"
+  },
+  {
+    "id": "009",
+    "price": 3499.0,
+    "name": "CCISO Live in Person",
+    "url": "/products.json"
+  },
+  {
+    "id": "010",
+    "price": 1899.0,
+    "name": "CHFI Self-Paced (iLearn)",
+    "url": "/products.json"
+  },
+  {
+    "id": "011",
+    "price": 2899.0,
+    "name": "CHFI Live Online (iWeek)",
+    "url": "/products.json"
+  },
+  {
+    "id": "012",
+    "price": 2899.0,
+    "name": "CHFI Live in Person",
+    "url": "/products.json"
+  },
+  {
+    "id": "013",
+    "price": 1899.0,
+    "name": "ECSA Self-Paced (iLearn)",
+    "url": "/products.json"
+  },
+  {
+    "id": "014",
+    "price": 2999.0,
+    "name": "ECSA Live Online (iWeek)",
+    "url": "/products.json"
+  },
+  {
+    "id": "015",
+    "price": 2999.0,
+    "name": "ECSA Live in Person",
+    "url": "/products.json"
+  },
+  {
+    "id": "016",
+    "price": 1199.0,
+    "name": "ECIH Self-Paced (iLearn)",
+    "url": "/products.json"
+  },
+  {
+    "id": "017",
+    "price": 1799.0,
+    "name": "ECIH Live Online (iWeek)",
+    "url": "/products.json"
+  },
+  {
+    "id": "018",
+    "price": 1799.0,
+    "name": "ECIH Live in Person",
+    "url": "/products.json"
+  },
+  {
+    "id": "101",
+    "price": 499.0,
+    "name": "STORM - Mobile Security Tool Kit",
+    "url": "/products.json"
+  },
+  {
+    "id": "102",
+    "price": 427.0,
+    "name": "Gale Force 10 Expansion Pack",
+    "url": "/products.json"
+  },
+  {
+    "id": "877",
+    "price": 499.0,
+    "name": "CEH Textbook",
+    "url": "/products.json"
+  },
+  {
+    "id": "104",
+    "price": 260.0,
+    "name": "Academic Credits",
+    "url": "/products.json"
+  },
+  {
+    "id": "105",
+    "price": 149.0,
+    "name": "Cyber Quotient - CEH Exam Prep",
+    "url": "/products.json"
+  },
+  {
+    "id": "106",
+    "price": 500.0,
+    "name": "CEH (Practical)",
+    "url": "/products.json"
+  },
+  {
+    "id": "107",
+    "price": 199.0,
+    "name": "iLabs Additional 6 months",
+    "url": "/products.json"
+  },
+  {
+    "id": "108",
+    "price": 75.0,
+    "name": "Analogue Network Security",
+    "url": "/products.json"
+  },
+  {
+    "id": "109",
+    "price": 60.0,
+    "name": "Building Virtual Pentesting Labs",
+    "url": "/products.json"
+  },
+  {
+    "id": "110",
+    "price": 25.0,
+    "name": "CEH T-Shirt",
+    "url": "/products.json"
+  },
+  {
+    "id": "111",
+    "price": 25.0,
+    "name": "CND T-Shirt",
+    "url": "/products.json"
+  },
+  {
+    "id": "112",
+    "price": 149.0,
+    "name": "Cyber Quotient - CND Exam Prep",
+    "url": "/products.json"
+  },
+  {
+    "id": "113",
+    "price": 250.0,
+    "name": "CND Textbook",
+    "url": "/products.json"
+  },
+  {
+    "id": "114",
+    "price": 250.0,
+    "name": "CCISO Textbook",
+    "url": "/products.json"
+  },
+  {
+    "id": "115",
+    "price": 35.0,
+    "name": "CISO Defenders of the Cyber Realm",
+    "url": "/products.json"
+  },
+  {
+    "id": "116",
+    "price": 15.0,
+    "name": "CCISO Coffee Mug (1)",
+    "url": "/products.json"
+  },
+  {
+    "id": "117",
+    "price": 15.0,
+    "name": "Global CISO Forum Mug (2)",
+    "url": "/products.json"
+  },
+  {
+    "id": "118",
+    "price": 550.0,
+    "name": "ECSA (Practical)",
+    "url": "/products.json"
+  },
+  {
+    "id": "119",
+    "price": 99.0,
+    "name": "ECIH Textbook",
+    "url": "/products.json"
+  },
+  {
+    "id": "120",
+    "price": 250.0,
+    "name": "ECSA Textbook",
+    "url": "/products.json"
   }
 ]

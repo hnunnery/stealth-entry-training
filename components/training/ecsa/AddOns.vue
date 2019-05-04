@@ -140,7 +140,7 @@
               <v-btn
                 large
                 class="snipcart-add-item primary gradient mb-4"
-                data-item-id="117"
+                data-item-id="120"
                 data-item-name="ECSA Textbook"
                 data-item-price="250.00"
                 data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556917713/StealthEntry/eccouncil/ECSA-book-v10.png"
