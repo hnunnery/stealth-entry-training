@@ -97,14 +97,14 @@
   },
   {
     "id": "017",
-    "price": 1799.0,
-    "name": "ECIH Live Online (iWeek)",
+    "price": 1899.0,
+    "name": "EDRP Self-Paced (iLearn)",
     "url": "/products.json"
   },
   {
     "id": "018",
-    "price": 1799.0,
-    "name": "ECIH Live in Person",
+    "price": 1599.0,
+    "name": "CEH-CC Self-Paced (iLearn)",
     "url": "/products.json"
   },
   {
@@ -120,8 +120,8 @@
     "url": "/products.json"
   },
   {
-    "id": "877",
-    "price": 499.0,
+    "id": "103",
+    "price": 877.0,
     "name": "CEH Textbook",
     "url": "/products.json"
   },
@@ -225,6 +225,12 @@
     "id": "120",
     "price": 250.0,
     "name": "ECSA Textbook",
+    "url": "/products.json"
+  },
+  {
+    "id": "121",
+    "price": 250.0,
+    "name": "EDRP Textbook",
     "url": "/products.json"
   }
 ]

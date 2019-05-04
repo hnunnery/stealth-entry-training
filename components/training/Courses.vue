@@ -58,6 +58,24 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
+          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+            <nuxt-link to="/courses/edrp">
+              <v-img
+                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397749/StealthEntry/eccouncil/EDRP-featured.jpg"
+                alt="EDRP"
+                class="responsive-img elevation-12 course-tile"
+              ></v-img>
+            </nuxt-link>
+          </v-flex>
+          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+            <nuxt-link to="/courses/cc">
+              <v-img
+                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556998753/StealthEntry/eccouncil/CoreConcepts-cover-main-300x300.jpg"
+                alt="CC"
+                class="responsive-img elevation-12 course-tile"
+              ></v-img>
+            </nuxt-link>
+          </v-flex>
           <!-- <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
             <nuxt-link to="/courses/certified-security-analyst">
               <v-img
@@ -67,15 +85,7 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
-            <nuxt-link to="/courses/certified-security-analyst">
-              <v-img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397749/StealthEntry/eccouncil/EDRP-featured.jpg"
-                alt="EDRP"
-                class="responsive-img elevation-12 course-tile"
-              ></v-img>
-            </nuxt-link>
-          </v-flex>
+          
           -->
         </v-layout>
       </v-flex>

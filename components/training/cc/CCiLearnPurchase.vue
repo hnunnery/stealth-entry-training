@@ -6,55 +6,50 @@
           <v-layout row wrap justify-center align-center>
             <v-flex xs12 lg5 px-4>
               <v-img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397883/StealthEntry/eccouncil/ECIH-Product-Cover.jpg"
-                alt="ECIH"
+                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556998753/StealthEntry/eccouncil/CoreConcepts-cover-main-300x300.jpg"
+                alt="CC"
                 class="responsive-img"
                 max-height="500"
                 contain
               ></v-img>
             </v-flex>
             <v-flex xs12 lg6 px-4>
-              <h2 class="display-1 secondary--text mt-4">ECIH Live In Person</h2>
-              <p class="display-1 primary--text mt-3 mb-0">$1,799</p>
+              <h2 class="display-1 secondary--text mt-4">CEH-CC Self-Paced (iLearn)</h2>
+              <p class="display-1 primary--text mt-3 mb-4">$1,599</p>
               <v-container fluid grid-list-xl>
                 <v-layout wrap justify-center align-center>
                   <v-flex xs12 sm10>
-                    <v-select :items="dates" label="Choose Dates" v-model="courseDate"></v-select>
                     <p class="title secondary--text text-xs-left">Base Package Includes:</p>
                     <ul class="subheading secondary--text text-xs-left">
                       <li>
-                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Instructor-led In Person Training
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Streaming Video Training Modules – 1 year access
                       </li>
                       <li>
-                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Official Printed Courseware
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Official EC-Council e-courseware – 1 year access
                       </li>
                       <li>
-                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; iLabs (6 Months Access)
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; iLabs, Virtual Lab Platform – 6 months access
                       </li>
                       <li>
-                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certificate of Completion
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Instructor-led Training Modules
                       </li>
                       <li>
                         <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certification Exam Voucher
                       </li>
                       <li>
-                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Exam Preparation
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certificate of Completion
                       </li>
                     </ul>
                     <v-btn
                       large
-                      :disabled="!courseDate"
                       class="snipcart-add-item primary gradient mt-4"
                       data-item-id="018"
-                      data-item-name="ECIH Live In Person"
-                      data-item-price="1799.00"
-                      data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397883/StealthEntry/eccouncil/ECIH-Product-Cover.jpg"
+                      data-item-name="CEH-CC Self-Paced (iLearn)"
+                      data-item-price="1599.00"
+                      data-item-image="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556998753/StealthEntry/eccouncil/CoreConcepts-cover-main-300x300.jpg"
                       data-item-url="/products.json"
-                      data-item-custom1-name="Course"
-                      data-item-custom1-required="true"
-                      :data-item-custom1-value="this.courseDate"
+                      data-item-description="EC-Council’s Core Concepts course is the bridge between a beginning level security course and CEH; furthermore, it focuses on the main concepts required to build a foundation in security."
                     >Add to Cart</v-btn>
-                    <p v-if="!courseDate" class="primary--text">Please Choose Dates</p>
                   </v-flex>
                 </v-layout>
               </v-container>
@@ -65,14 +60,3 @@
     </v-layout>
   </v-container>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      courseDate: "",
-      dates: ["Albuquerque, NM | May 29-31, 2019"]
-    };
-  }
-};
-</script>

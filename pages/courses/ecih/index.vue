@@ -135,36 +135,24 @@
           data-aos="zoom-out-up"
           data-aos-delay="100"
           data-aos-duration="1000"
-        >Choose a Training Option Below</h2>
+        >Only Available in Self-Paced</h2>
       </v-flex>
     </v-layout>
-    <ECIHiLearn :courseHome="true"/>
-    <ECIHiWeek :courseHome="true"/>
-    <ECIHinPerson :courseHome="true"/>
-
-    <v-layout row wrap justify-center class="hero-background-circuit">
-      <v-flex xs12 class="text-xs-center py-5">
-        <h2
-          class="display-1 secondary--text py-5"
-        >Please contact our training team to schedule in-person live training for your Private Group</h2>
-        <v-btn to="/contact" large class="orange gradient white--text">Contact Page</v-btn>
-      </v-flex>
-    </v-layout>
+    <ECIHiLearnPurchase/>
+    <AddOns/>
   </v-container>
 </template>
 
 <script>
 import Youtube from "@/components/Youtube";
-import ECIHiLearn from "@/components/training/ecih/ECIHiLearn";
-import ECIHiWeek from "@/components/training/ecih/ECIHiWeek";
-import ECIHinPerson from "@/components/training/ecih/ECIHinPerson";
+import ECIHiLearnPurchase from "@/components/training/ecih/ECIHiLearnPurchase";
+import AddOns from "@/components/training/ecih/AddOns";
 
 export default {
   components: {
     Youtube,
-    ECIHiLearn,
-    ECIHiWeek,
-    ECIHinPerson
+    ECIHiLearnPurchase,
+    AddOns
   },
   data() {
     return {

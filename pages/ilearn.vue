@@ -6,6 +6,8 @@
     <CHFIiLearn :courseHome="false"/>
     <ECSAiLearn :courseHome="false"/>
     <ECIHiLearn :courseHome="false"/>
+    <EDRPiLearn :courseHome="false"/>
+    <CCiLearn :courseHome="false"/>
   </div>
 </template>
 
@@ -16,6 +18,8 @@ import CCISOiLearn from "@/components/training/cciso/CCISOiLearn";
 import CHFIiLearn from "@/components/training/chfi/CHFIiLearn";
 import ECSAiLearn from "@/components/training/ecsa/ECSAiLearn";
 import ECIHiLearn from "@/components/training/ecih/ECIHiLearn";
+import EDRPiLearn from "@/components/training/edrp/EDRPiLearn";
+import CCiLearn from "@/components/training/cc/CCiLearn";
 
 export default {
   components: {
@@ -24,7 +28,9 @@ export default {
     CCISOiLearn,
     CHFIiLearn,
     ECSAiLearn,
-    ECIHiLearn
+    ECIHiLearn,
+    EDRPiLearn,
+    CCiLearn
   }
 };
 </script>

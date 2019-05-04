@@ -6,51 +6,47 @@
           <v-layout row wrap justify-center align-center>
             <v-flex xs12 lg5 px-4>
               <v-img
-                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397883/StealthEntry/eccouncil/ECIH-Product-Cover.jpg"
-                alt="ECIH"
+                src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556998753/StealthEntry/eccouncil/CoreConcepts-cover-main-300x300.jpg"
+                alt="CC"
                 class="responsive-img"
                 max-height="500"
                 contain
               ></v-img>
             </v-flex>
             <v-flex xs12 lg6 px-4>
-              <h2 class="display-1 secondary--text mt-4">ECIH Live In Person</h2>
-              <p class="display-1 primary--text mt-3 mb-0">$1,799</p>
-              <v-container fluid grid-list-xl>
+              <h2 class="display-1 secondary--text mt-4">CEH-CC Self-Paced (iLearn)</h2>
+              <p class="display-1 primary--text mt-3 mb-4">$1,599</p>
+              <v-container fluid>
                 <v-layout wrap justify-center align-center>
                   <v-flex xs12 sm10>
-                    <h5 class="title secondary--text text-xs-left mb-3">Scheduled Courses:</h5>
-                    <ul class="subheading secondary--text text-xs-left">
-                      <li v-for="(date, index) in dates" :key="index">{{date}}</li>
-                    </ul>
-                    <p class="title secondary--text text-xs-left mt-3">Base Package Includes:</p>
+                    <p class="title secondary--text text-xs-left">Base Package Includes:</p>
                     <ul class="subheading secondary--text text-xs-left">
                       <li>
-                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Instructor-led In Person Training
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Streaming Video Training Modules – 1 year access
                       </li>
                       <li>
-                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Official Printed Courseware
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Official EC-Council e-courseware – 1 year access
                       </li>
                       <li>
-                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; iLabs (6 Months Access)
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; iLabs, Virtual Lab Platform – 6 months access
                       </li>
                       <li>
-                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certificate of Completion
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Instructor-led Training Modules
                       </li>
                       <li>
                         <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certification Exam Voucher
                       </li>
                       <li>
-                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Exam Preparation
+                        <v-icon small class="green--text">fas fa-check-circle</v-icon>&nbsp; Certificate of Completion
                       </li>
                     </ul>
                     <v-layout row wrap justify-center>
                       <v-flex xs12 sm6 pa-0 v-show="!courseHome">
-                        <v-btn to="/courses/ecih" large class="secondary mt-4">ECIH Info</v-btn>
+                        <v-btn to="/courses/cc" large class="secondary mt-4">CEH-CC Info</v-btn>
                       </v-flex>
-                      <v-flex xs12 sm6 pa-0>
+                      <v-flex xs12 sm6>
                         <v-btn
-                          to="/courses/ecih/inperson"
+                          to="/courses/cc/ilearn"
                           large
                           class="primary gradient mt-4"
                         >Purchase Course</v-btn>
@@ -69,11 +65,6 @@
 
 <script>
 export default {
-  props: ["courseHome"],
-  data() {
-    return {
-      dates: ["Albuquerque, NM | May 29-31, 2019"]
-    };
-  }
+  props: ["courseHome"]
 };
 </script>

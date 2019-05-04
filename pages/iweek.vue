@@ -5,7 +5,6 @@
     <CCISOiWeek :courseHome="false"/>
     <CHFIiWeek :courseHome="false"/>
     <ECSAiWeek :courseHome="false"/>
-    <ECIHiWeek :courseHome="false"/>
   </div>
 </template>
 
@@ -15,7 +14,6 @@ import CNDiWeek from "@/components/training/cnd/CNDiWeek";
 import CCISOiWeek from "@/components/training/cciso/CCISOiWeek";
 import CHFIiWeek from "@/components/training/chfi/CHFIiWeek";
 import ECSAiWeek from "@/components/training/ecsa/ECSAiWeek";
-import ECIHiWeek from "@/components/training/ecih/ECIHiWeek";
 
 export default {
   components: {
@@ -23,8 +21,7 @@ export default {
     CNDiWeek,
     CCISOiWeek,
     CHFIiWeek,
-    ECSAiWeek,
-    ECIHiWeek
+    ECSAiWeek
   }
 };
 </script>
