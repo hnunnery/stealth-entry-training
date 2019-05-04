@@ -108,6 +108,24 @@
     "url": "/products.json"
   },
   {
+    "id": "019",
+    "price": 1199.0,
+    "name": "CTIA Self-Paced (iLearn)",
+    "url": "/products.json"
+  },
+  {
+    "id": "020",
+    "price": 1799.0,
+    "name": "CTIA Live Online (iWeek)",
+    "url": "/products.json"
+  },
+  {
+    "id": "021",
+    "price": 1799.0,
+    "name": "CTIA Live in Person",
+    "url": "/products.json"
+  },
+  {
     "id": "101",
     "price": 499.0,
     "name": "STORM - Mobile Security Tool Kit",

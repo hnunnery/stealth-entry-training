@@ -94,20 +94,20 @@
         >Only Available in Self-Paced</h2>
       </v-flex>
     </v-layout>
-    <EDRPiLearnPurchase/>
+    <CCiLearnPurchase/>
     <AddOns/>
   </v-container>
 </template>
 
 <script>
 import Youtube from "@/components/Youtube";
-import EDRPiLearnPurchase from "@/components/training/edrp/EDRPiLearnPurchase";
+import CCiLearnPurchase from "@/components/training/cc/CCiLearnPurchase";
 import AddOns from "@/components/training/cc/AddOns";
 
 export default {
   components: {
     Youtube,
-    EDRPiLearnPurchase,
+    CCiLearnPurchase,
     AddOns
   },
   data() {
