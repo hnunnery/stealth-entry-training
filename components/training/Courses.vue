@@ -4,7 +4,7 @@
       <v-flex xs12 xl10>
         <h2 class="display-1 secondary--text text-xs-center my-3">Choose a Course</h2>
         <v-layout row wrap justify-left>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+          <v-flex xs12 sm6 md3 class="text-xs-center pa-3">
             <nuxt-link to="/courses/ceh">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CEH-Cover-v10-2.jpg"
@@ -13,7 +13,7 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+          <v-flex xs12 sm6 md3 class="text-xs-center pa-3">
             <nuxt-link to="/courses/cnd">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/CND-cover-main.jpg"
@@ -22,7 +22,7 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+          <v-flex xs12 sm6 md3 class="text-xs-center pa-3">
             <nuxt-link to="/courses/cciso">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/v1556397505/StealthEntry/eccouncil/CCISO-cover-main.jpg"
@@ -31,7 +31,7 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+          <v-flex xs12 sm6 md3 class="text-xs-center pa-3">
             <nuxt-link to="/courses/ctia">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1557000843/StealthEntry/eccouncil/CTIA-Main-Cover.jpg"
@@ -40,7 +40,7 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+          <v-flex xs12 sm6 md3 class="text-xs-center pa-3">
             <nuxt-link to="/courses/chfi">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397355/StealthEntry/eccouncil/CHFI-cover-main.jpg"
@@ -49,7 +49,7 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+          <v-flex xs12 sm6 md3 class="text-xs-center pa-3">
             <nuxt-link to="/courses/ecsa">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1551134832/StealthEntry/eccouncil/ECSAV10-Cover.jpg"
@@ -58,7 +58,7 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+          <v-flex xs12 sm6 md3 class="text-xs-center pa-3">
             <nuxt-link to="/courses/ecih">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397883/StealthEntry/eccouncil/ECIH-Product-Cover.jpg"
@@ -67,7 +67,7 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+          <v-flex xs12 sm6 md3 class="text-xs-center pa-3">
             <nuxt-link to="/courses/edrp">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556397749/StealthEntry/eccouncil/EDRP-featured.jpg"
@@ -76,7 +76,7 @@
               ></v-img>
             </nuxt-link>
           </v-flex>
-          <v-flex xs12 sm6 md3 xl2 class="text-xs-center pa-3">
+          <v-flex xs12 sm6 md3 class="text-xs-center pa-3">
             <nuxt-link to="/courses/cc">
               <v-img
                 src="https://res.cloudinary.com/missionwebdev/image/upload/f_auto/v1556998753/StealthEntry/eccouncil/CoreConcepts-cover-main-300x300.jpg"
