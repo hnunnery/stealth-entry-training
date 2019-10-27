@@ -1,41 +1,8 @@
-:root {
-  --brand-color: #424242;
-}
-.snip-layout .snip-header,
-.snip-layout .snip-header__total,
-.snip-layout .snip-footer {
-  background: var(--brand-color);
-}
-.snip-layout .snip-btn {
-  background-color: #ff9800;
-  border-radius: 3px;
-  border: 1px solid #fff;
-}
-.snip-layout .snip-btn:hover {
-  background-color: #d48105;
-}
-.snip-layout .snip-btn--highlight {
-  background: #05c40e;
-  color: white !important;
-  text-shadow: #333 0.5px 0.5px 5px;
-}
-.snip-layout .snip-btn--highlight:hover {
-  background: #045c08;
+.snipcart__box--badge-highlight,
+.snipcart-cart-button--highlight {
+  background-image: linear-gradient(90deg, #424242, #ff9800);
 }
 
-#snipcart-title {
-  color: #ff9800;
-}
-.snip-header__total-label,
-#snipcart-amount {
-  color: #424242 !important;
-  font-size: 1.3em !important;
-}
-
-@media screen and (max-width: 993px) {
-  .snip-layout .snip-header,
-  .snip-layout .snip-header__total,
-  .snip-layout .snip-footer {
-    background: #ff9800;
-  }
+.snipcart-cart-button--highlight:hover {
+  background-image: linear-gradient(90deg, #ff9800, #ff9800);
 }

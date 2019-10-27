@@ -74,7 +74,7 @@ module.exports = {
       },
       {
         rel: "stylesheet",
-        href: "https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css"
+        href: "https://cdn.snipcart.com/themes/v3.0.0/default/snipcart.css"
       },
       // Icon Meta Tags
       {
@@ -110,15 +110,7 @@ module.exports = {
     ],
     script: [
       {
-        src: "https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js",
-        async: true,
-        defer: true
-      },
-      {
-        id: "snipcart",
-        "data-api-key":
-          "ZWE0MDNjODUtOGY2Mi00YWZmLWE1YzctZDNiNzk5MDA3ZDA4NjM2NzA0MTQ5NTA0NjIyOTU2",
-        src: "https://cdn.snipcart.com/scripts/2.0/snipcart.js",
+        src: "https://cdn.snipcart.com/themes/v3.0.0/default/snipcart.js",
         async: true,
         defer: true
       }

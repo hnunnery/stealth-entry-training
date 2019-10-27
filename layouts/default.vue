@@ -7,7 +7,7 @@
             src="https://res.cloudinary.com/missionwebdev/image/upload/c_scale,f_auto,h_45/v1549227032/StealthEntry/stealth-entry-logo.png"
             alt="logo"
             id="navbar-logo"
-          >
+          />
         </nuxt-link>
       </v-flex>
       <!-- NAVBAR FOR MEDIUM AND UP SCREEN SIZES -->
@@ -37,14 +37,12 @@
         </v-menu>-->
 
         <v-btn flat class="snipcart-checkout">
-          <span class="snipcart-summary snipcart-summary-empty">
-            <v-badge color="#f1f1f1">
-              <template v-slot:badge>
-                <span class="snipcart-total-items primary--text"></span>
-              </template>
-              <v-icon color="orange" class="navbar-icons">fas fa-shopping-cart</v-icon>
-            </v-badge>
-          </span>
+          <v-badge color="#f1f1f1">
+            <template v-slot:badge>
+              <span class="snipcart-items-count primary--text"></span>
+            </template>
+            <v-icon color="orange" class="navbar-icons">fas fa-shopping-cart</v-icon>
+          </v-badge>
         </v-btn>
       </v-toolbar-items>
       <!-- NAVBAR FOR SMALL AND EXTRA SMALL SCREEN SIZES -->
@@ -113,9 +111,7 @@
           </v-list>
         </v-menu>-->
 
-        <v-list-tile
-          class="snipcart-summary snipcart-summary-empty snipcart-checkout bottom-sidenav-element sidenav-element"
-        >
+        <v-list-tile class="snipcart-checkout bottom-sidenav-element sidenav-element">
           <v-list-tile-action class="nav-link">
             <v-icon class="primary--text text-xs-center">fas fa-shopping-cart</v-icon>
           </v-list-tile-action>
@@ -129,7 +125,7 @@
     </v-navigation-drawer>
 
     <v-content>
-      <router-view/>
+      <router-view />
     </v-content>
 
     <v-footer height="auto" class="page-footer">
@@ -173,6 +169,11 @@
               </v-flex>
               <v-flex xs12 md6>
                 <p class="white--text">© 2019 Stealth Entry | All Rights Reserved</p>
+                <div
+                  hidden
+                  id="snipcart"
+                  data-api-key="ZWE0MDNjODUtOGY2Mi00YWZmLWE1YzctZDNiNzk5MDA3ZDA4NjM2NzA0MTQ5NTA0NjIyOTU2"
+                ></div>
               </v-flex>
             </v-layout>
           </v-flex>
